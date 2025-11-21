@@ -1,4 +1,4 @@
-# Ignore all root-level content except Ver_2 directory
+# Track only quiz-app in repository root
 /*
 !.gitignore
-!Ver_2/
+!quiz-app/
