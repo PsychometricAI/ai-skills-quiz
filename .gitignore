@@ -1,0 +1,4 @@
+# Ignore all root-level content except Ver_2 directory
+/*
+!.gitignore
+!Ver_2/
