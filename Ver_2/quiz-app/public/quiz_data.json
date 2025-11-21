@@ -1,0 +1,2057 @@
+[
+  {
+    "task_id": 1,
+    "text": "In an AI inference service on GPUs, what does Accelerated Tensor Programming mainly target to boost throughput?",
+    "options": [
+      "Using tensor cores, fused GEMM, tiling, and PTX to maximize throughput",
+      "Refactoring Python loops and pandas joins to simplify data preprocessing",
+      "Encrypting checkpoints and rotating IAM keys to harden runtime security",
+      "Extending context windows via retrieval to improve prompt adherence"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "It focuses on low-level GPU math and kernel optimizations like GEMM, tensor cores, and tiling.",
+    "skillName": "Accelerated Tensor Programming",
+    "skillDefinition": "Develop and optimize matrix and tensor computations on GPUs and TPUs using SIMD/AVX2, tensor cores, GEMM, loop tiling, and PTX to maximize throughput. Leverage ONNX Runtime or TensorRT with distributed trainers like Ray Train and OneTrainer, apply dtensor for partitioning, and monitor and tune Cloud TPU workloads with TensorBoard and TPU tooling."
+  },
+  {
+    "task_id": 2,
+    "text": "When deploying an AI system under uncertainty, what best characterizes Adaptive Decision Optimization?",
+    "options": [
+      "Using contextual bandits, MDPs, and MPC to tune actions under uncertainty",
+      "Selecting static thresholds from historical A/B tests without exploration",
+      "Encoding business rules in fixed if-else trees for deterministic outcomes",
+      "Scaling batch inference by adding GPUs without behavior modeling"
+    ],
+    "correctIndex": 0,
+    "likely": 0.62,
+    "explanation": "It uses stochastic methods like bandits, MDPs, and MPC to adapt decisions to changing contexts.",
+    "skillName": "Adaptive Decision Optimization",
+    "skillDefinition": "Design, implement, and tune adaptive, stochastic decision-making systems using methods like contextual bandits, MDP/MCTS, MPC, evolutionary algorithms, and Monte Carlo sampling to optimize outcomes under uncertainty. Select and configure algorithms, set decision thresholds, and deploy data-driven sampling and behavior trees to improve performance in dynamic environments."
+  },
+  {
+    "task_id": 3,
+    "text": "In production LLM apps, what defines Advanced RAG Engineering beyond basic retrieval?",
+    "options": [
+      "Using agentic, corrective, and graph-aware retrieval with rigorous RAG evaluation",
+      "Only increasing embedding dimensions to improve nearest neighbor recall",
+      "Relying on static FAQs without vector or graph store integration",
+      "Moving prompts to serverless functions to reduce memory costs"
+    ],
+    "correctIndex": 0,
+    "likely": 0.66,
+    "explanation": "Advanced RAG integrates vector and graph stores and tunes pipelines with dedicated RAG evaluations.",
+    "skillName": "Advanced RAG Engineering",
+    "skillDefinition": "Design, build, and optimize retrieval-augmented generation systems across text, vision, and video, including agentic, corrective, self-RAG, and graph/RDF variants. Integrate vector and graph stores, apply RAFT and RIG when appropriate, and evaluate and tune pipelines using RAG frameworks and Ragas."
+  },
+  {
+    "task_id": 4,
+    "text": "For AI-driven 3D asset creation from 2D inputs, what is the core capability?",
+    "options": [
+      "Training 3D neural models with depth estimation and generative rendering",
+      "Compressing textures with ZIP to reduce asset download times",
+      "Hosting static GLTF files on a CDN with cache headers",
+      "Tracking user clicks to optimize UX funnels in analytics"
+    ],
+    "correctIndex": 0,
+    "likely": 0.63,
+    "explanation": "It focuses on 3D deep learning, depth inference, and generative rendering for assets and scenes.",
+    "skillName": "AI 3D Content Generation",
+    "skillDefinition": "Design, train, and deploy 3D deep learning pipelines to reconstruct, generate, and animate assets and scenes from scans or 2D inputs. Apply 3D neural networks, depth estimation, and generative rendering to automate avatar creation, environment builds, and simulations."
+  },
+  {
+    "task_id": 5,
+    "text": "In building custom AI chips, what is a primary focus of AI Accelerator Engineering?",
+    "options": [
+      "Designing compute and memory hierarchies with firmware for low-latency AI",
+      "Creating React dashboards for model observability and user feedback",
+      "Writing high-level prompts to guide chat agents on product FAQs",
+      "Configuring IAM groups to manage developer permissions for APIs"
+    ],
+    "correctIndex": 0,
+    "likely": 0.59,
+    "explanation": "It targets chip architecture, memory, firmware, and accelerator programming for efficient AI compute.",
+    "skillName": "AI Accelerator Engineering",
+    "skillDefinition": "Architect, implement, and optimize AI accelerators and custom AI chips (ASIC/NPU), covering compute architecture, memory hierarchy, chiplet integration, and firmware to maximize throughput, minimize latency, and improve energy efficiency. Apply accelerator programming and hardware design flows on ARM, Apple Silicon, and specialized processors to take designs from concept to validation."
+  },
+  {
+    "task_id": 6,
+    "text": "What best describes AI Agent Engineering for a production assistant?",
+    "options": [
+      "Building autonomous agents with planning loops, tools, state, and security",
+      "Only tuning prompts to increase helpfulness without tool use",
+      "Serving a single LLM endpoint without workflow orchestration",
+      "Exporting logs to CSV for manual error inspection weekly"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "Agents require planning, tool use, state management, protocols, and secure orchestration.",
+    "skillName": "AI Agent Engineering",
+    "skillDefinition": "Design, program, and deploy autonomous AI agents using agent frameworks and SDKs, implementing communication protocols, planning and coordination loops, state management, security, and interoperability. Orchestrate agent workflows end-to-end, and test, debug, and monitor agents from development through production."
+  },
+  {
+    "task_id": 7,
+    "text": "In exposing AI models via APIs, what is the key concern for AI API Engineering?",
+    "options": [
+      "Secure, performant REST endpoints with keys, rotation, and rate limits",
+      "Training larger models to avoid endpoint timeouts and throttling",
+      "Hardcoding admin tokens in clients to simplify authentication",
+      "Replacing HTTP with SMTP to reduce network latency"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "It centers on secure API design, key management, rate limiting, and performance monitoring.",
+    "skillName": "AI API Engineering",
+    "skillDefinition": "Designs, builds, and integrates REST/HTTP APIs and gateways for accessing AI models and services, with secure key management, credential rotation, endpoint design, and performance optimization. Uses API management and APM tools to monitor, scale, and optimize requests, rate limits, and latency for reliable AI application delivery."
+  },
+  {
+    "task_id": 8,
+    "text": "What best defines AI Application and Platform Engineering in production?",
+    "options": [
+      "Designing scalable AI systems with pipelines, APIs, and monitoring on Linux",
+      "Writing only research notebooks without deployment automation",
+      "Embedding images in markdown to document experiment results",
+      "Manually copying models to servers without version control"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "It covers architecture, tooling, lifecycle management, deployment, and operations at scale.",
+    "skillName": "AI Application and Platform Engineering",
+    "skillDefinition": "Designs, builds, and deploys AI-powered applications and platforms by defining system architecture, selecting frameworks and programming languages, developing prototypes and tools, and managing the full ML lifecycle from development to production in Linux-based environments. Implements deployment pipelines, APIs and protocols, monitoring, and project management practices to operationalize and scale AI services."
+  },
+  {
+    "task_id": 9,
+    "text": "In deploying an AI app to regulated markets, what is essential for compliance?",
+    "options": [
+      "Automating license tracking, privacy checks, and evidence collection",
+      "Favoring larger models to minimize regulatory scope and scrutiny",
+      "Relying on public datasets to avoid data residency rules",
+      "Skipping audits because models are open source and free"
+    ],
+    "correctIndex": 0,
+    "likely": 0.69,
+    "explanation": "Compliance requires tracking licenses, verifying privacy/security controls, and audit evidence.",
+    "skillName": "AI Compliance and Licensing",
+    "skillDefinition": "Ability to design, implement, and audit processes that ensure AI systems comply with privacy, security, and regulatory requirements (GDPR, HIPAA, FedRAMP, data residency) and organizational policies. Covers copyright and fair-use risk management, data and model license selection and tracking (e.g., MIT), automated compliance verification and evidence collection, and policy enforcement across the ML lifecycle."
+  },
+  {
+    "task_id": 10,
+    "text": "What describes AI Computational Design in scientific product development?",
+    "options": [
+      "Combining ML with simulations for molecular and materials design",
+      "Only using linear regression to analyze sales performance",
+      "Optimizing CSS layouts for responsive web components",
+      "Sending batch emails to recruit study participants"
+    ],
+    "correctIndex": 0,
+    "likely": 0.58,
+    "explanation": "It integrates ML and physics-based simulation to analyze and optimize complex designs.",
+    "skillName": "AI Computational Design",
+    "skillDefinition": "Build and integrate machine learning and physics-based simulation workflows to analyze omics data, predict molecular and material properties, and optimize designs using protein and chemical language models, Alphafold, CFD, and CAD/CAE. Develop end-to-end pipelines from genomic analysis and molecular modeling to parametric design and digital fabrication to accelerate discovery and product development."
+  },
+  {
+    "task_id": 11,
+    "text": "When building a moderation layer for an AI chatbot, what is key?",
+    "options": [
+      "AI-based detection with tuned thresholds and escalation workflows",
+      "Using random sampling to approve most messages quickly",
+      "Encrypting prompts so the model cannot read harmful inputs",
+      "Serving images at lower resolution to reduce offense risk"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Effective moderation uses AI detectors, thresholds, and escalation while monitoring bias.",
+    "skillName": "AI Content Moderation",
+    "skillDefinition": "Ability to design and implement AI-driven content moderation pipelines that detect and filter unsafe or policy-violating text and images. Includes integrating moderation APIs (e.g., OpenAI), tuning thresholds, managing escalation workflows, and monitoring accuracy and bias."
+  },
+  {
+    "task_id": 12,
+    "text": "For AI clusters, what is a core responsibility of AI Data Center Engineering?",
+    "options": [
+      "Designing high-density compute, networking, and power for AI workloads",
+      "Writing data labeling guidelines for annotation teams",
+      "Designing mobile UI for chatbot avatars in apps",
+      "Drafting marketing copy for model release announcements"
+    ],
+    "correctIndex": 0,
+    "likely": 0.64,
+    "explanation": "It focuses on facilities for compute, storage, networking, power, and AIOps at scale.",
+    "skillName": "AI Data Center Engineering",
+    "skillDefinition": "Design, deploy, and operate AI-optimized data center infrastructure, including high-density compute, networking, storage, and DC power systems. Apply AIOps and modular design to manage capacity, reliability, and cost for AI workloads."
+  },
+  {
+    "task_id": 13,
+    "text": "What best characterizes AI Data Engineering for training reliability?",
+    "options": [
+      "Building governed pipelines for ingestion, curation, and quality controls",
+      "Hardcoding file paths in notebooks to speed up local runs",
+      "Skipping schema validation to avoid ETL performance overhead",
+      "Randomly mixing datasets without lineage or catalogs"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "It delivers scalable, governed data pipelines with quality and lifecycle controls.",
+    "skillName": "AI Data Engineering",
+    "skillDefinition": "Ability to design, build, and manage scalable data architectures and pipelines for AI/ML, including acquisition, ingestion, cleaning, curation, modeling, and cataloging. Implements governance, quality, ethics, and lifecycle controls to deliver reliable datasets for training and inference."
+  },
+  {
+    "task_id": 14,
+    "text": "In a collaborative AI team, what does environment integration emphasize?",
+    "options": [
+      "AI-enabled IDEs with Copilot, extensions, CI, tracking, and Git best practices",
+      "Editing code directly in production containers without version control",
+      "Using only email threads to manage issue tracking and alerts",
+      "Disabling linting and tests to speed up code reviews"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "It integrates AI assistants, extensions, automation, tracking, and Git workflows.",
+    "skillName": "AI Development Environment Integration",
+    "skillDefinition": "Set up, customize, and maintain AI-enabled IDEs and notebooks (VS Code, JetBrains, Jupyter/Colab) integrating GitHub Copilot, Codespaces, Actions/APIs, Copilot Chat/Studio, and Cursor to streamline coding and collaboration. Build IDE extensions and automated workflows, connect Jira and Prometheus for tracking and monitoring, and apply Git version control best practices across repositories."
+  },
+  {
+    "task_id": 15,
+    "text": "What defines AI Evaluation and Benchmarking for model selection?",
+    "options": [
+      "Reproducible pipelines with proper metrics, automated grading, and reviews",
+      "Choosing models by parameter count and recent hype alone",
+      "Using a single accuracy metric across all tasks and domains",
+      "Manually eyeballing few samples without test documentation"
+    ],
+    "correctIndex": 0,
+    "likely": 0.81,
+    "explanation": "It builds reproducible evaluations with task-appropriate metrics and reviews.",
+    "skillName": "AI Evaluation and Benchmarking",
+    "skillDefinition": "Design and implement evaluation frameworks and benchmark tests for AI models and agents, including metric selection (accuracy, AP/MAP, classification), automated grading, and human review. Build reproducible pipelines to compute, analyze, and report performance metrics to compare systems and drive model improvements."
+  },
+  {
+    "task_id": 16,
+    "text": "For AI-driven visual pipelines, what is a core capability?",
+    "options": [
+      "Super-resolution, denoising, inpainting, compositing, and color grading at scale",
+      "Compressing ZIP files for faster dataset downloads only",
+      "Using CSV exports to archive model predictions by hand",
+      "Displaying thumbnails without GPU acceleration or quality checks"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "Production image pipelines require enhancement, editing, and quality assessment tools.",
+    "skillName": "AI Image Processing",
+    "skillDefinition": "Build and operate AI-driven image editing and enhancement workflows for production and analysis, covering super-resolution, denoising, deblurring, inpainting/outpainting, compositing, color correction/grading and colorization, HDR processing, augmentation/preprocessing, and quality assessment/forensics. Use tools and frameworks such as Adobe Photoshop and Firefly, Albumentations, and GPU upscalers like DLSS and FSR to deliver reliable, high-quality visual outputs."
+  },
+  {
+    "task_id": 17,
+    "text": "In serving LLMs, what best describes AI Inference Caching?",
+    "options": [
+      "Managing KV caches, pooling, and eviction to cut latency and memory",
+      "Saving full conversation logs in CSV without cache policies",
+      "Using larger batch sizes without any cache consideration",
+      "Encrypting outputs to reduce token generation time significantly"
+    ],
+    "correctIndex": 0,
+    "likely": 0.71,
+    "explanation": "KV cache optimization and eviction tuning reduce latency and VRAM usage.",
+    "skillName": "AI Inference Caching",
+    "skillDefinition": "Ability to design and implement caching strategies and connection pooling for model serving, including KV cache management (quantization/compression, offload, optimization), LRU, memoization, and prefix caching to reduce latency and GPU memory. Monitor and tune cache hit rates, eviction policies, and resource utilization to maximize throughput and cost efficiency."
+  },
+  {
+    "task_id": 18,
+    "text": "For CPU-edge inference, what is central to AI Inference Engineering?",
+    "options": [
+      "Runtime tuning, batching, caching, and C++ optimizations for low latency",
+      "Only retraining models with more parameters for better throughput",
+      "Replacing REST with FTP to transfer predictions faster",
+      "Logging outputs in XML to reduce compute usage"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "It focuses on backend and runtime optimizations to meet latency and cost goals.",
+    "skillName": "AI Inference Engineering",
+    "skillDefinition": "Design, implement, and optimize AI inference engines, APIs, backends, and serving endpoints to achieve low latency, high throughput, and cost efficiency on CPU and edge environments. Apply runtime tuning, C++/CPU optimizations, caching, batching, and orchestration to accelerate and scale production inference."
+  },
+  {
+    "task_id": 19,
+    "text": "When running LLMs on limited VRAM, what practice is key?",
+    "options": [
+      "Hierarchical offloading, in-place ops, compression, and coalescing",
+      "Storing all tensors in FP64 to improve numerical stability",
+      "Disabling attention caching to reduce compute fragmentation",
+      "Duplicating parameters across GPUs to simplify sharding"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "Memory-aware techniques reduce footprint and enable low-VRAM inference.",
+    "skillName": "AI Memory Optimization",
+    "skillDefinition": "Design and tune memory architectures and strategies for AI and LLM workloads to minimize footprint and maximize throughput. Implement GPU/VRAM optimization, hierarchical offloading, in-place operations, coalescing, compression, and integrate external and long-term memory to enable low-VRAM inference and robust agent memory management."
+  },
+  {
+    "task_id": 20,
+    "text": "In debugging a failing model pipeline, what is the core approach?",
+    "options": [
+      "Instrument logs, trace data and behavior, and validate targeted fixes",
+      "Increase training epochs and hope the issue disappears",
+      "Delete old checkpoints to clear space without analysis",
+      "Change the optimizer to a new variant without diagnostics"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "Systematic diagnostics, tracing, and tests are required to isolate and fix issues.",
+    "skillName": "AI Model Debugging",
+    "skillDefinition": "Systematically diagnose, reproduce, and resolve failures and performance anomalies in AI models and supporting code using debugging tools, automated diagnostics, and model inspection. Build tests, instrument logs/metrics, trace data and model behavior, and validate fixes to restore expected functionality."
+  },
+  {
+    "task_id": 21,
+    "text": "What captures AI Model Engineering for enterprise deployment?",
+    "options": [
+      "Selecting, adapting, and integrating models to meet performance needs",
+      "Using only prebuilt APIs without any customization or validation",
+      "Choosing the largest model regardless of latency constraints",
+      "Skipping integration tests to speed up delivery schedules"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "It includes selection, adaptation, and integration to meet requirements.",
+    "skillName": "AI Model Engineering",
+    "skillDefinition": "Design, select, customize, and train AI models, including domain-specific variants, using modular architectures and model-agnostic techniques. Apply domain adaptation and generalization methods, perform model editing and refinement, and integrate models into software and system architectures to meet performance, reliability, and deployment requirements."
+  },
+  {
+    "task_id": 22,
+    "text": "In tuning a domain LLM, what choice defines effective fine-tuning practice?",
+    "options": [
+      "Selecting full or PEFT methods with HPO and efficient training",
+      "Always using full fine-tuning regardless of memory limits",
+      "Training on random internet text without domain instructions",
+      "Ignoring evaluation while maximizing tokens processed"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "It requires choosing the right strategy and optimizing hyperparameters and memory.",
+    "skillName": "AI Model Fine-Tuning",
+    "skillDefinition": "Design and execute fine-tuning pipelines for language and multimodal models, choosing between full and parameter-efficient approaches (adapters, PEFT) based on domain goals and resource constraints. Perform hyperparameter optimization and autotuning, distributed and memory-efficient training, and iterative instruction and domain-specific tuning to meet target performance."
+  },
+  {
+    "task_id": 23,
+    "text": "For compliant deployment, what is central to AI Model Risk Management?",
+    "options": [
+      "Assessing risks using NIST AI RMF and defining controls with monitoring",
+      "Publishing model cards without any control implementation",
+      "Focusing only on P99 latency and ignoring safety risks",
+      "Scaling clusters before analyzing model harm scenarios"
+    ],
+    "correctIndex": 0,
+    "likely": 0.68,
+    "explanation": "Risk frameworks, controls, and monitoring underpin safe, compliant AI.",
+    "skillName": "AI Model Risk Management",
+    "skillDefinition": "Ability to assess, quantify, prioritize, and mitigate risks in AI systems using the NIST AI RMF and model risk management practices. Includes conducting rigorous risk analyses and credit risk modeling, defining controls and monitoring, and maintaining documentation to ensure compliant, reliable, and safe AI deployment."
+  },
+  {
+    "task_id": 24,
+    "text": "What deployment practice is key for safe model rollouts?",
+    "options": [
+      "Using blue-green, canary, and shadow strategies with monitoring",
+      "Hot-swapping Docker images in-place without health checks",
+      "Deploying all models to one endpoint without isolation",
+      "Relying on manual SSH updates during peak traffic"
+    ],
+    "correctIndex": 0,
+    "likely": 0.82,
+    "explanation": "Progressive delivery strategies reduce risk and enable rapid rollback.",
+    "skillName": "AI Model Serving and Deployment",
+    "skillDefinition": "Design, deploy, and operate microservices-based, modular model serving systems in production, including multi-model endpoints and multi-tenant architectures. Apply blue-green, canary, and shadow deployment strategies to safely release and scale models with isolation, monitoring, and rapid rollback using serving frameworks and plugins."
+  },
+  {
+    "task_id": 25,
+    "text": "In production LLM apps, what should observability include?",
+    "options": [
+      "Drift detection, data quality, performance metrics, and audit logs",
+      "Only CPU and RAM metrics without model behavior tracking",
+      "Manual spot checks on a few user sessions monthly",
+      "Email alerts for every request regardless of severity"
+    ],
+    "correctIndex": 0,
+    "likely": 0.81,
+    "explanation": "Monitoring needs behavior, data, and system metrics with auditing.",
+    "skillName": "AI Monitoring and Observability",
+    "skillDefinition": "Design and operate monitoring, logging, and observability for AI agents and ML models across data quality, drift, performance, and system health. Configure cloud logging and audit trails, implement drift and behavioral detection, dashboards and alerts, and continuous reporting to ensure reliability, compliance, and rapid incident response."
+  },
+  {
+    "task_id": 26,
+    "text": "To meet SLAs and budgets, what is a core activity?",
+    "options": [
+      "Tuning algorithms, code, cache, I/O, and compute resource usage",
+      "Buying newer GPUs instead of profiling bottlenecks",
+      "Doubling batch size without measuring tail latency",
+      "Caching every response forever regardless of accuracy"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Holistic optimization spans algorithmic, code, data I/O, and resource tuning.",
+    "skillName": "AI Performance and Cost Optimization",
+    "skillDefinition": "Analyze and optimize AI models, data pipelines, and infrastructure to improve throughput and latency while minimizing cloud, compute, and API spend via algorithm, code, cache, data I/O, and compute resource tuning across training and inference. Implement cost monitoring and compute cost estimation, and apply deep learning optimizers and architecture and model adjustments to meet performance SLAs and budget targets."
+  },
+  {
+    "task_id": 27,
+    "text": "In an AI recommender, what practice defines personalization engineering?",
+    "options": [
+      "Modeling behavior with collaborative and content filtering plus A/B tests",
+      "Serving the same content to all users for fairness",
+      "Ignoring privacy constraints when joining identity data",
+      "Only counting page views as the relevance signal"
+    ],
+    "correctIndex": 0,
+    "likely": 0.73,
+    "explanation": "It builds behavioral models, tests variants, and respects privacy constraints.",
+    "skillName": "AI Personalization Engineering",
+    "skillDefinition": "Design, train, and deploy end-to-end personalization and recommendation systems for ads, content, and search using behavioral modeling, collaborative and content-based filtering, and deep learning. Execute persona modeling, real-time inference, and A/B testing to maximize relevance, CTR, and conversion while honoring privacy and identity-preference constraints."
+  },
+  {
+    "task_id": 28,
+    "text": "For long-horizon tasks, what describes AI Planning Systems?",
+    "options": [
+      "Modeling domains, choosing planners, and integrating feedback for execution",
+      "Using random actions to discover plans without constraints",
+      "Rendering 3D scenes without any planning or goals",
+      "Training a classifier to output plans as labels directly"
+    ],
+    "correctIndex": 0,
+    "likely": 0.64,
+    "explanation": "Planning systems model domains and execute plans with feedback loops.",
+    "skillName": "AI Planning Systems",
+    "skillDefinition": "Designs and deploys planner-executor systems for long-horizon tasks by modeling domains in PDDL, selecting hierarchical/global/local strategies, and implementing path, motion, and trajectory planning under spatial-temporal constraints. Translates complex objectives into executable plans and integrates feedback to optimize performance and reliability."
+  },
+  {
+    "task_id": 29,
+    "text": "When handling user data in AI training, what is essential?",
+    "options": [
+      "Applying differential privacy, anonymization, and leak prevention controls",
+      "Saving raw PII indefinitely for better model recall",
+      "Sharing datasets freely to maximize collaboration speed",
+      "Hashing only filenames to protect sensitive content"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Privacy engineering uses DP, masking, encryption, and DLP to reduce risk.",
+    "skillName": "AI Privacy Engineering",
+    "skillDefinition": "Design and implement privacy-preserving data pipelines and ML systems using differential privacy, anonymization/masking/redaction, encryption, MPC, and DLP. Detect PII, prevent leakage/exfiltration, and mitigate dataset contamination and data poisoning across collection, training, deployment, and monitoring."
+  },
+  {
+    "task_id": 30,
+    "text": "For automating enterprise workflows with AI, what is critical?",
+    "options": [
+      "Designing bots and orchestration with monitoring and scalability",
+      "Replacing all systems with a single chatbot interface",
+      "Copying data manually between spreadsheets daily",
+      "Ignoring runbooks and recovering issues by memory"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "It builds reliable AI and RPA workflows with integration and monitoring.",
+    "skillName": "AI Process Automation",
+    "skillDefinition": "Design, build, and optimize automated workflows using AI, RPA, and orchestration tools to streamline customer support, marketing, office apps, and enterprise processes. Includes task capture and record-and-playback, bot development, system integration (e.g., spreadsheets, email, smart home), runbook automation, monitoring, and scaling."
+  },
+  {
+    "task_id": 31,
+    "text": "What defines AI Red Teaming for a new model release?",
+    "options": [
+      "Generating adversarial attacks and mapping to MITRE ATLAS with mitigations",
+      "Only running unit tests on preprocessing code modules",
+      "Scaling inference GPUs to handle more benign traffic",
+      "Relying on model size to make attacks ineffective"
+    ],
+    "correctIndex": 0,
+    "likely": 0.69,
+    "explanation": "Red teaming simulates attacks, validates weaknesses, and proposes defenses.",
+    "skillName": "AI Red Teaming",
+    "skillDefinition": "Design and run manual and automated adversarial evaluations of AI models and pipelines, generating attacks (prompts, examples, backdoors) and mapping findings to MITRE ATLAS. Hunt, reverse engineer, and validate model poisoning, model theft, and exploit paths, and recommend mitigations via adversarial training and regularization."
+  },
+  {
+    "task_id": 32,
+    "text": "For resilient AI services, what practice is central?",
+    "options": [
+      "Applying SRE patterns like retries, idempotency, and chaos testing",
+      "Pushing experimental models directly to production traffic",
+      "Disabling health checks to avoid noisy alerts",
+      "Accepting nondeterminism without any reproducibility guardrails"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "SRE practices ensure robust, fault-tolerant, and reproducible AI operations.",
+    "skillName": "AI Reliability Engineering",
+    "skillDefinition": "Designs and operates resilient, fault-tolerant, and reproducible AI systems across training and inference. Applies SRE practices such as retry strategies, idempotency, deterministic execution, chaos engineering, A/B testing, and robust evaluation to ensure model robustness, reliable performance, and recoverability under noise and adversarial conditions."
+  },
+  {
+    "task_id": 33,
+    "text": "In an enterprise, what is core to AI Safety and Governance?",
+    "options": [
+      "Risk assessment, guardrails, audits, and accountability across lifecycle",
+      "Letting product teams set safety rules ad hoc per sprint",
+      "Skipping impact assessments for internal-only tools",
+      "Relying only on terms of service to ensure safe use"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "Governance sets standards, guardrails, and oversight throughout development.",
+    "skillName": "AI Safety and Governance",
+    "skillDefinition": "Ability to design and run AI governance, safety, and alignment programs, including risk assessment, guardrails, audits, and oversight aligned with regulations. Includes drafting AI policies, conducting algorithmic auditing and safety testing, and ensuring accountability and auditability from development through deployment."
+  },
+  {
+    "task_id": 34,
+    "text": "For scaling AI training and serving, what is the main focus?",
+    "options": [
+      "Autoscaling compute, serving, and data with reliability and cost awareness",
+      "Migrating all compute to a single large instance type",
+      "Combining train and serve workloads on one node always",
+      "Ignoring scaling laws while increasing sequence length"
+    ],
+    "correctIndex": 0,
+    "likely": 0.73,
+    "explanation": "It builds scalable systems across compute, serving, and pipelines with SLAs.",
+    "skillName": "AI Scalability Engineering",
+    "skillDefinition": "Design, build, and operate large-scale AI training and inference systems, including autoscaling compute, scalable model serving, and data pipelines. Apply model and inference scaling laws to optimize performance, reliability, and cost across clusters and deployments."
+  },
+  {
+    "task_id": 35,
+    "text": "In enterprise search, what defines AI Search Engineering?",
+    "options": [
+      "Hybrid lexical and semantic search with embeddings and ranking",
+      "Only exact keyword matching with no vector similarity",
+      "Randomly shuffling results to improve exploration",
+      "Using image compression to accelerate text search"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "It blends lexical and vector techniques to optimize relevance and scale.",
+    "skillName": "AI Search Engineering",
+    "skillDefinition": "Design, build, and optimize AI-powered search engines using lexical, keyword, and semantic techniques with vector embeddings and cosine similarity to deliver high-relevance results across enterprise, file, and image search. Implement indexing pipelines, hybrid ranking and exploration strategies, integrate search APIs, and deploy and scale solutions on platforms such as Amazon OpenSearch or Meilisearch, including serverless options."
+  },
+  {
+    "task_id": 36,
+    "text": "What is a core activity in AI Security Engineering?",
+    "options": [
+      "Threat modeling and controls across data, models, and infrastructure",
+      "Storing API keys in logs for quick debugging access",
+      "Turning off SIEM alerts to reduce noise permanently",
+      "Serving models without TLS to minimize overhead"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Security covers threats and controls across the AI stack, with monitoring.",
+    "skillName": "AI Security Engineering",
+    "skillDefinition": "Design, implement, and audit security controls for AI/ML systems across data, models, infrastructure, and supply chain, including threat modeling, penetration testing, safety evaluation, and secure air-gapped or cloud deployment. Apply cybersecurity practices and tools (IAM, application, network, IoT, SIEM, cryptography) to detect, prevent, and respond to threats, insecure output handling, and model integrity risks in AI-enabled environments."
+  },
+  {
+    "task_id": 37,
+    "text": "For robotics training, what best describes AI Simulation Engineering?",
+    "options": [
+      "Building physics and agent simulations for training and sim-to-real transfer",
+      "Using only static images for robot policy learning",
+      "Optimizing HTML canvases for dashboard animations",
+      "Replacing dynamics with random noise to encourage exploration"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "It creates accurate simulation environments and models for robust transfer.",
+    "skillName": "AI Simulation Engineering",
+    "skillDefinition": "Design, build, and calibrate physics-based and agent-based simulation environments and digital twins (e.g., CARLA, Isaac Sim) to train, test, and validate AI for robotics and autonomous vehicles. Apply physics-informed ML (PINNs), differentiable physics, PDE solvers, surrogate modeling, and world models to achieve accurate dynamics modeling and robust sim-to-real transfer."
+  },
+  {
+    "task_id": 38,
+    "text": "In leading AI adoption, what is a key responsibility?",
+    "options": [
+      "Defining use cases, integrating systems, piloting, and scaling with governance",
+      "Choosing tools based only on vendor popularity rankings",
+      "Skipping workforce training to accelerate initial delivery",
+      "Avoiding measurements to prevent negative findings"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "Strategy aligns use cases, integration, pilots, scaling, and governance.",
+    "skillName": "AI Strategy and Integration",
+    "skillDefinition": "Define use cases, architect and integrate AI systems into products, services, and operating environments, selecting algorithms and tools, preparing training data, and embedding assistants and OS features with rigorous testing and governance. Lead pilots to scaled deployment, build workforce AI literacy and curricula, and deliver measurable benefits while managing cost, safety, and compliance."
+  },
+  {
+    "task_id": 39,
+    "text": "What practice defines AI Validation and Verification in production?",
+    "options": [
+      "Automated tests, cross-validation, and consistency and factuality checks",
+      "Approving models by team vote without evaluations",
+      "Benchmarking once and never revalidating after changes",
+      "Trusting vendor claims without any internal assessment"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "V&V uses systematic testing and verification to ensure trustworthy behavior.",
+    "skillName": "AI Validation and Verification",
+    "skillDefinition": "Design and run end-to-end validation and verification for AI systems across data, models, and inputs/outputs using testing frameworks, cross-validation, formal methods, and consistency/factuality checks. Deploy automated fact-checking and source verification, input sanitization, inference-time output verification, and cryptographic proofs and verifiable credentials to ensure trustworthy, compliant behavior."
+  },
+  {
+    "task_id": 40,
+    "text": "For AI video pipelines, what capability is central?",
+    "options": [
+      "Generating and editing video with analytics for detection and events",
+      "Only extracting audio tracks without any frame analysis",
+      "Storing frames uncompressed to guarantee quality",
+      "Converting videos to GIFs to simplify modeling"
+    ],
+    "correctIndex": 0,
+    "likely": 0.66,
+    "explanation": "It includes video generation/editing and analytics for robust applications.",
+    "skillName": "AI Video Synthesis and Analytics",
+    "skillDefinition": "Capability to design, train, and deploy models and pipelines for video generation and editing (image/audio-to-video, vid2vid), frame interpolation/generation and enhancement (denoising), and content-aware inpainting, object removal, and RGBA compositing. Applies video analytics for classification, action recognition, moderation, forensics, and event detection, and optimizes multi-frame rendering with keyframe control and structure-aware techniques."
+  },
+  {
+    "task_id": 41,
+    "text": "In real-time perception systems, what is the core goal?",
+    "options": [
+      "Detecting, tracking, and avoiding objects with optimized models and sensors",
+      "Randomly sampling frames to reduce GPU temperature",
+      "Applying grayscale filters to all incoming camera feeds",
+      "Compressing detections to CSV for monthly analysis only"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Perception integrates sensors and models for detection and tracking in real time.",
+    "skillName": "AI Visual Perception",
+    "skillDefinition": "Build and deploy camera and sensor-based AI pipelines for object and obstacle detection, tracking, and collision avoidance in surveillance and interactive systems. Select sensors, integrate and tune models, and optimize real-time performance, accuracy, and alerting."
+  },
+  {
+    "task_id": 42,
+    "text": "For multi-model AI pipelines, what does orchestration ensure?",
+    "options": [
+      "Stateful tasks, dependencies, monitoring, and resource optimization",
+      "Single-threaded execution with manual retries for failures",
+      "Random scheduling to maximize hardware utilization",
+      "Hardcoded endpoints without any run tracking or logs"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Orchestration coordinates tasks, resources, observability, and reliability.",
+    "skillName": "AI Workflow Orchestration",
+    "skillDefinition": "Design, automate, and manage end-to-end, stateful AI workflows by orchestrating models, tools, APIs, data pipelines, containers, and GPU resources across multi-model and multi-node environments. Configure task dependencies, integrate services, monitor and debug runs, and optimize reliability, throughput, and cost using workflow engines and orchestrators."
+  },
+  {
+    "task_id": 43,
+    "text": "When serving AI at scale, what is a key orchestration activity?",
+    "options": [
+      "Asynchronous queues, micro-batching, rate limits, and capacity planning",
+      "Disabling backpressure so producers never block",
+      "Running all jobs on a single large queue without priorities",
+      "Hardcoding budgets and ignoring quota alarms"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "It manages queues, batching, limits, and resources to meet SLAs.",
+    "skillName": "AI Workload Orchestration",
+    "skillDefinition": "Design and operate asynchronous and batch processing pipelines for AI services using message queues, job scheduling, dynamic/micro-batching, rate limiting, and load balancing to maximize throughput and stability. Plan and control cluster resource allocation, budgets, and service quotas with capacity planning, power management, and liquid/hybrid cooling constraints to meet SLAs."
+  },
+  {
+    "task_id": 44,
+    "text": "In a secure dev workflow, how should AI coding assistants be used?",
+    "options": [
+      "Generate, review, and verify code with secure analysis pipelines",
+      "Commit suggested code without tests or security checks",
+      "Paste secrets to get better suggestions for deployments",
+      "Disable code reviews when AI provides completions"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "Assistants should integrate with testing, analysis, and secure workflows.",
+    "skillName": "AI-Assisted Software Development",
+    "skillDefinition": "Proficiency in using AI coding assistants and agents to generate, complete, review, debug, verify, and repair code across languages. Capable of configuring secure workflows for code analysis and audits, and optimizing productivity with AI pair programming and assisted editing."
+  },
+  {
+    "task_id": 45,
+    "text": "For a loan model, what is key to mitigate bias?",
+    "options": [
+      "Measure fairness metrics and apply data, model, or post-processing fixes",
+      "Hide sensitive columns but never evaluate disparities",
+      "Use larger models to eliminate bias automatically",
+      "Rely on randomization to guarantee fair outcomes"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "Fairness requires metrics, diagnosis, and targeted mitigations and monitoring.",
+    "skillName": "Algorithmic Fairness and Bias Mitigation",
+    "skillDefinition": "Evaluate and audit AI/ML models for bias using fairness metrics and tests, diagnose sources of disparity, and implement mitigation techniques in data, model, and post-processing. Establish ongoing bias monitoring, reporting, and governance to meet ethical and regulatory standards."
+  },
+  {
+    "task_id": 46,
+    "text": "In building AI analytics for decisions, what is essential?",
+    "options": [
+      "Selecting models, pipelines, BI integration, and validating outcomes",
+      "Plotting sample charts without data provenance tracking",
+      "Trusting raw outputs without cross-check or domain review",
+      "Storing dashboards as images without underlying data"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "Applied analytics integrates models, data, and validation to support decisions.",
+    "skillName": "Applied AI Analytics",
+    "skillDefinition": "Ability to design and deploy AI-driven analytics and diagnostics that process large, multi-source data to produce actionable insights in healthcare, finance, marketing, and drug discovery. Includes selecting models, building data pipelines, integrating BI tools, and validating outcomes to inform decisions and accelerate scientific discovery."
+  },
+  {
+    "task_id": 47,
+    "text": "For end-to-end classification pipelines, what is core?",
+    "options": [
+      "Data labeling, training discriminative models, and tuning clustering methods",
+      "Skipping labels and using only random features for training",
+      "Reducing dataset size by deleting hard samples",
+      "Grouping by file name similarity to form classes"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "It spans annotation through training and evaluation of classifiers and clusters.",
+    "skillName": "Applied Classification and Clustering",
+    "skillDefinition": "Ability to build end-to-end pipelines for data annotation and labeling, and to train, evaluate, and deploy discriminative models for classification across text, images, audio, and graphs. Proficient in selecting and tuning supervised, semi-supervised, and self-supervised approaches and clustering algorithms (k-means, agglomerative, mean-shift) to deliver accurate content and metadata classification."
+  },
+  {
+    "task_id": 48,
+    "text": "For real-time audio AI, what capability is central?",
+    "options": [
+      "Preprocessing, features, enhancement, separation, and streaming integration",
+      "Converting audio to images to reuse CV models blindly",
+      "Storing audio uncompressed to improve accuracy automatically",
+      "Using only text embeddings to classify sound events"
+    ],
+    "correctIndex": 0,
+    "likely": 0.69,
+    "explanation": "Audio ML needs signal processing, modeling, streaming, and quality assessment.",
+    "skillName": "Audio ML Engineering",
+    "skillDefinition": "Build and optimize machine learning and signal processing systems for audio, including preprocessing, feature extraction, classification, enhancement, source separation, synthesis, event detection, and multimodal audio-language modeling. Integrate encoding and codecs, streaming, audio-visual synchronization, deepfake and forensic detection, adaptive noise cancellation, and quality assessment to deliver robust real-time applications."
+  },
+  {
+    "task_id": 49,
+    "text": "For securing AI services in real time, what is key?",
+    "options": [
+      "Detect anomalies and orchestrate playbooks for automated response",
+      "Disable logging to reduce storage and alert fatigue",
+      "Only schedule weekly scans for offline threat reports",
+      "Approve all external inputs to maintain availability"
+    ],
+    "correctIndex": 0,
+    "likely": 0.71,
+    "explanation": "It combines detection with automated containment and escalation.",
+    "skillName": "Automated Detection and Response",
+    "skillDefinition": "Designs, implements, and tunes systems that detect anomalies, threats, harmful content, fraud, and AI hallucinations in real time using behavioral analytics, feature filtering, and deception technologies. Orchestrates automated incident response to contain intrusions, mitigate DDoS, remediate malware and defects, and escalate critical events with defined playbooks."
+  },
+  {
+    "task_id": 50,
+    "text": "In robot control, what best describes this skill?",
+    "options": [
+      "Closed-loop decision-making with safety constraints and validation",
+      "Manual teleoperation without any autonomy or feedback",
+      "Static path scripts regardless of sensor inputs",
+      "Random motor commands to explore unsafe states"
+    ],
+    "correctIndex": 0,
+    "likely": 0.67,
+    "explanation": "Autonomous control integrates perception, planning, and safe actuation.",
+    "skillName": "Autonomous Systems Control",
+    "skillDefinition": "Design, implement, and tune AI-driven closed-loop control and decision-making for robots, drones, and vehicles. Integrate perception, planning, and actuation, develop control algorithms and safety constraints, and validate performance via simulation and real-world testing for navigation, manipulation, and collaboration."
+  },
+  {
+    "task_id": 51,
+    "text": "For voice-driven avatars, what is the core pipeline?",
+    "options": [
+      "Audio-driven lip sync, expression transfer, and motion synthesis with safeguards",
+      "Randomly swapping faces for visual variety in demos",
+      "Static 2D sprites triggered by simple keyword matching",
+      "Manual keyframing for every phoneme across long videos"
+    ],
+    "correctIndex": 0,
+    "likely": 0.66,
+    "explanation": "It uses AI to drive lip sync and expressions with responsible controls.",
+    "skillName": "Avatar and Facial Animation",
+    "skillDefinition": "Design, train, and deploy AI pipelines for audio-driven facial animation and avatar generation, including lip sync, facial expression transfer, gesture and motion synthesis, face reenactment, and synthetic likeness creation. Implement deepfake detection, watermarking, and consent workflows to mitigate misuse and ensure responsible deployment."
+  },
+  {
+    "task_id": 52,
+    "text": "When building agents on Bedrock, what is a key practice?",
+    "options": [
+      "Configuring AgentCore with guardrails, knowledge bases, flows, and observability",
+      "Hardcoding prompts in Lambda without any agent runtime",
+      "Ignoring safety while maximizing token usage per call",
+      "Using only batch jobs without conversational orchestration"
+    ],
+    "correctIndex": 0,
+    "likely": 0.61,
+    "explanation": "AgentCore enables orchestrated, safe, observable agents on Bedrock.",
+    "skillName": "Bedrock AgentCore Development",
+    "skillDefinition": "Design, build, and operate AI agents on Amazon Bedrock using AgentCore runtime and gateway, configuring guardrails, knowledge bases, and flows. Use Bedrock APIs including Converse and Agents to orchestrate interactions, import custom models, automate data pipelines, and implement observability and evaluations for production readiness."
+  },
+  {
+    "task_id": 53,
+    "text": "For wearable AI, what defines biomedical signal processing?",
+    "options": [
+      "Acquiring, filtering, and modeling ECG/EEG for real-time detection",
+      "Compressing PDFs of lab results for storage savings",
+      "Rendering 3D organs with no physiological signals",
+      "Using only image models to analyze heart rhythms"
+    ],
+    "correctIndex": 0,
+    "likely": 0.62,
+    "explanation": "It focuses on DSP and models for physiological signals on devices.",
+    "skillName": "Biomedical Signal Processing",
+    "skillDefinition": "Ability to acquire, filter, and analyze physiological and neural signals (e.g., ECG, EEG) using DSP to extract features, detect events (arrhythmia, sleep stages), and train and deploy real-time models. Includes sensor integration and communication (Bluetooth, USB), on-device inference for wearables and BCIs, and power-aware design with battery management."
+  },
+  {
+    "task_id": 54,
+    "text": "For data extraction to feed AI, what is key?",
+    "options": [
+      "Headless automation with Playwright and anti-bot compliant practices",
+      "Saving HTML screenshots and reading pixels as text",
+      "Replaying mouse macros without handling dynamic content",
+      "Ignoring robots.txt to maximize collection speed"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "Modern scraping uses headless browsers, compliance, and robust pipelines.",
+    "skillName": "Browser Automation and Scraping",
+    "skillDefinition": "Build and operate automated, headless browser agents with Playwright, Puppeteer, Selenium, CDP, and Chromium—including extension development and integration—to navigate, interact with, and extract structured data from websites at scale. Ensure robots.txt compliance, mitigate bot detection with session and proxy management, and connect outputs to AI pipelines and vector stores such as Chroma/Chromadb."
+  },
+  {
+    "task_id": 55,
+    "text": "In classification serving, what is vital for reliable thresholds?",
+    "options": [
+      "Calibrating probabilities and tuning loss functions with confusion analysis",
+      "Using uncalibrated logits and fixed thresholds across domains",
+      "Switching to MSE for all tasks regardless of type",
+      "Maximizing entropy without evaluating decision impact"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "Calibration aligns scores with probabilities and guides thresholding.",
+    "skillName": "Calibration and Loss Engineering",
+    "skillDefinition": "Engineer and tune loss functions (cross-entropy, MSE, custom) and perform model, confidence, and camera calibration to align predicted probabilities, confidence scores, and decision thresholds. Apply linear models and estimators (GLM, logistic regression, MLE/EM), confusion matrix and entropy analysis, and linear/integer programming to optimize performance, reduce error, and mitigate logit bias."
+  },
+  {
+    "task_id": 56,
+    "text": "When integrating Claude, what is a good practice?",
+    "options": [
+      "Select model versions, design tools, and manage tokens and safety",
+      "Use only default prompts and disable streaming for all calls",
+      "Hardcode API keys in client apps for convenience",
+      "Ignore latency and cost while maximizing context size"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Good integration chooses models, tool use, safety, and efficient usage.",
+    "skillName": "Claude API Integration",
+    "skillDefinition": "Ability to design, build, and maintain applications using Anthropic Claude models via the Anthropic API, including selecting appropriate models/versions (e.g., Sonnet, Opus, 3.5 and 3.7), prompt and tool-use design, streaming, and token/error management. Applies safety and UX best practices, avoids anthropomorphism, and optimizes latency, cost, and output quality"
+  },
+  {
+    "task_id": 57,
+    "text": "For cloud AI deployments, what is essential?",
+    "options": [
+      "Architect secure, scalable services and optimize training and serving",
+      "Run all workloads on a single VM regardless of spikes",
+      "Avoid managed services to reduce platform visibility",
+      "Keep identities shared across teams for convenience"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "It leverages cloud services, security, and optimization for scale.",
+    "skillName": "Cloud AI Engineering",
+    "skillDefinition": "Build, deploy, and integrate AI/ML solutions across cloud platforms such as Azure and Alibaba Cloud using services like Azure Machine Learning, Cognitive Services, Logic Apps, Functions, cloud GPUs, and Cloud SQL. Architect secure, scalable infrastructure, manage identity and data pipelines, and optimize training and inference for performance and cost."
+  },
+  {
+    "task_id": 58,
+    "text": "For real-time CV pipelines, what is core?",
+    "options": [
+      "Detection, segmentation, and multi-object tracking with robust calibration",
+      "Converting all videos to grayscale for easier training always",
+      "Annotating only a few frames and extrapolating by guesswork",
+      "Using OCR models for pedestrian tracking in street scenes"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "It trains and deploys detectors, segmenters, and trackers with tuning.",
+    "skillName": "Computer Vision Segmentation and Tracking",
+    "skillDefinition": "Design, train, and deploy computer vision pipelines for detection, segmentation, and single/multi-object tracking of people, animals, and items using methods such as Mask R-CNN, edge detection, attention modules (CBAM), pose/gaze estimation, and motion estimation. Optimize for real-time accuracy and robustness (bounding boxes, masks, counts), calibrate sensors and autofocus, and integrate outputs into applications for activity tracking, motion capture, and audience or customer segmentation."
+  },
+  {
+    "task_id": 59,
+    "text": "To verify AI media authenticity, what is key?",
+    "options": [
+      "Watermarking, fingerprinting, signing, and detection pipelines",
+      "Upscaling images so tampering becomes less visible",
+      "Moving files to air-gapped storage without checks",
+      "Relying on timestamps to guarantee content origin"
+    ],
+    "correctIndex": 0,
+    "likely": 0.69,
+    "explanation": "Provenance uses cryptographic and forensic tools to verify authenticity.",
+    "skillName": "Content Provenance Engineering",
+    "skillDefinition": "Design, implement, and audit watermarking, fingerprinting, code and model signing, and DRM to verify, trace, and protect AI-generated and multimedia content. Build detection pipelines using steganalysis, content ID, and FFmpeg tooling to identify tampering, validate provenance, and enforce content authenticity across production systems."
+  },
+  {
+    "task_id": 60,
+    "text": "For a continuously improving LLM service, what is essential?",
+    "options": [
+      "Pipelines for continual learning, evaluation loops, and safe updates",
+      "Only manual retraining once a year without feedback",
+      "Discarding user signals to avoid any bias corrections",
+      "Training on the same data indefinitely without refresh"
+    ],
+    "correctIndex": 0,
+    "likely": 0.73,
+    "explanation": "Continuous training needs feedback loops, evaluation, and safe iteration.",
+    "skillName": "Continuous Model Training",
+    "skillDefinition": "Ability to design and operate end-to-end training pipelines for foundation models, covering pretraining, continual/online learning, incremental retraining, and continuous evaluation with feedback loops. Select and curate pretraining datasets, apply active and curriculum learning, implement safety pretraining and concept bottlenecks, and provision infrastructure for iterative updates without service disruption."
+  },
+  {
+    "task_id": 61,
+    "text": "What distinguishes production-grade conversational AI?",
+    "options": [
+      "Dialog management, memory, retrieval, branching, and analytics",
+      "Single-turn replies with no context retention or state",
+      "Random response sampling without any UX design",
+      "Hardcoded greetings for every supported language"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "It manages stateful dialogs, retrieval, and UX with monitoring.",
+    "skillName": "Conversational AI Engineering",
+    "skillDefinition": "Designs, builds, and operates production-grade chatbots and conversational agents using chat and completion APIs and frameworks, implementing dialog management, conversation memory, retrieval, branching, and state and context handling. Applies conversation design and UX practices, templates, and analytics to optimize performance and integrate with platforms such as Dialogflow CX."
+  },
+  {
+    "task_id": 62,
+    "text": "For heterogeneous devices, what is central to acceleration?",
+    "options": [
+      "Optimizing kernels and memory across ROCm, Metal, and DirectML",
+      "Using only CUDA and ignoring non-NVIDIA hardware",
+      "Compiling Python to bytecode to gain GPU acceleration",
+      "Converting tensors to CSV before each kernel call"
+    ],
+    "correctIndex": 0,
+    "likely": 0.66,
+    "explanation": "It targets performance across diverse vendor stacks and devices.",
+    "skillName": "Cross-Platform ML Acceleration",
+    "skillDefinition": "Designs and implements performant ML training and inference across heterogeneous GPUs and devices using AMD ROCm (MI300), Apple Metal/MPS/MLX/Core ML, and DirectML/DirectX, with iOS/Android integration. Optimizes kernels and GDDR memory access, and builds distributed and serving pipelines with Ray, RDMA, gRPC, and vendor math libraries (Accelerate/MKL)."
+  },
+  {
+    "task_id": 63,
+    "text": "For audit-ready AI, what is the key capability?",
+    "options": [
+      "End-to-end lineage, versioning, registries, and tamper-evident trails",
+      "Deleting old datasets to save storage without records",
+      "Compressing checkpoints but losing training metadata",
+      "Tracking only model names without hashes or provenance"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Traceability ensures lineage, versioning, and verifiable provenance.",
+    "skillName": "Data and Model Traceability",
+    "skillDefinition": "Build and operate systems that capture end-to-end lineage, versioning, and attribution for datasets and ML models using registries, documentation (model cards), and reproducible packaging, export, serialization, and conversion (e.g., ONNX). Implement audit trails and distributed tracing, and when required blockchain/DLT, to ensure tamper-evident provenance and reliable model lifecycle management."
+  },
+  {
+    "task_id": 64,
+    "text": "When building DL compilers, what is a core focus?",
+    "options": [
+      "Generating optimized kernels via LLVM, JIT/AOT, and CUDA libraries",
+      "Writing only Python loops with no backend code generation",
+      "Serializing models to JSON for easier hand editing",
+      "Converting tensors to images to accelerate compute"
+    ],
+    "correctIndex": 0,
+    "likely": 0.61,
+    "explanation": "It builds compilers and DSLs that emit high-performance kernels.",
+    "skillName": "Deep Learning Compiler Engineering",
+    "skillDefinition": "Design, implement, and tune compilers and DSLs for deep learning using LLVM, JIT/AOT, and kernel DSLs to generate optimized CPU/GPU code. Leverage C/C++, Java and Kotlin on the JVM, Julia, and CUDA libraries (cuBLAS, cuDNN, CUTLASS) to build high-performance kernels and integrate with JAX/XLA, Halide, and DJL."
+  },
+  {
+    "task_id": 65,
+    "text": "In secure AI systems, what is central to DL Systems Engineering?",
+    "options": [
+      "Distributed training, efficient inference, and zero-trust architecture",
+      "Single-GPU training without any evaluation pipelines",
+      "Manual deployment of ZIPs to production servers",
+      "Removing monitoring to speed up inference by milliseconds"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "It delivers scalable, secure, and efficient training and serving.",
+    "skillName": "Deep Learning Systems Engineering",
+    "skillDefinition": "Design, optimize, and deploy deep learning services using modern frameworks and distributed training (e.g., DeepSpeed/ZeRO), applying zero/few-shot techniques and prototypical networks with efficient inference on constrained hardware. Implement zero-trust architecture and rigorous zero-shot evaluation to deliver secure, reliable production AI systems."
+  },
+  {
+    "task_id": 66,
+    "text": "For production image generation, what practice is key?",
+    "options": [
+      "Training and sampling diffusion models with adapters and efficient pipelines",
+      "Using GANs only and ignoring sampling strategies",
+      "Rendering from random noise without any conditioning",
+      "Exporting prompts as PDFs to reduce latency"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "Diffusion engineering tunes sampling, training, personalization, and cost.",
+    "skillName": "Diffusion Model Engineering",
+    "skillDefinition": "Design, train, fine-tune, and deploy diffusion-based generative models for images, audio, and video using libraries like Diffusers, Stability AI services, and tools such as Automatic1111 and ComfyUI. Implement effective sampling and training strategies (DDPM, latent/consistency), apply personalization and adapters (DreamBooth, IPAdapter), and optimize pipelines for quality, speed, and cost in production."
+  },
+  {
+    "task_id": 67,
+    "text": "To scale LLMs across nodes, what is essential?",
+    "options": [
+      "DDP/FSDP, parallelism strategies, and communication overlap tuning",
+      "Copying full models to each node without sharding",
+      "Using one shared disk and no networking optimizations",
+      "Disabling NCCL to avoid library dependencies"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Distributed performance hinges on parallelism and efficient communication.",
+    "skillName": "Distributed Training and Inference",
+    "skillDefinition": "Design, implement, and optimize multi-node AI training and serving using DDP and FSDP, data/context/3D parallelism, concurrent programming with communication overlap, and distributed file systems. Configure decentralized and federated systems for cross-region, disaggregated inference and distributed optimizers to maximize throughput, scalability, and fault tolerance."
+  },
+  {
+    "task_id": 68,
+    "text": "For faster decoding, what is a core technique?",
+    "options": [
+      "Tuning sampling, packing sequences, and parallel token decoding",
+      "Always using beam search with very large beams",
+      "Turning off caching to free memory each step",
+      "Increasing temperature to reduce latency regardless"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "Efficiency comes from decoding choices and packing to reduce overhead.",
+    "skillName": "Efficient Sequence Generation",
+    "skillDefinition": "Design, implement, and tune decoding algorithms (greedy, temperature, top-k) for autoregressive and non-autoregressive models, selecting decoder-only or encoder-decoder architectures as appropriate. Optimize quality, speed, and memory via parallel token decoding, sequence packing, adaptive and constrained decoding, and neural compression techniques for text, image, audio, and video."
+  },
+  {
+    "task_id": 69,
+    "text": "For high-quality retrieval, what is central to embeddings?",
+    "options": [
+      "Selecting and evaluating embedding models with scalable pipelines",
+      "Using random vectors to avoid overfitting to content",
+      "Indexing raw text without vectorization or alignment",
+      "Storing embeddings only in spreadsheets for convenience"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "It designs and evaluates embedding models with scalable, private pipelines.",
+    "skillName": "Embedding Engineering",
+    "skillDefinition": "Design, train, and optimize text, image, and code embedding models (dual-encoder, cross-encoder) to deliver high-quality similarity search, retrieval, and classification. Select and integrate provider offerings (OpenAI, Amazon Titan, GCP), implement multi-vector and multilingual embeddings, evaluate with MTEB, and build privacy-preserving, scalable pipelines for embedding generation, alignment, and inference."
+  },
+  {
+    "task_id": 70,
+    "text": "To cut energy in training, what is effective?",
+    "options": [
+      "Parameter and communication-efficient methods with energy-aware scheduling",
+      "Running at maximum clock speeds at all times",
+      "Training in FP64 to ensure maximal stability energy-wise",
+      "Disabling profiling to save CPU cycles during runs"
+    ],
+    "correctIndex": 0,
+    "likely": 0.66,
+    "explanation": "It optimizes algorithms and scheduling based on efficiency metrics.",
+    "skillName": "Energy Efficient AI Engineering",
+    "skillDefinition": "Engineer and optimize algorithms, model architectures, and training/inference pipelines to minimize energy use and computational cost while meeting accuracy and latency targets, using data-, parameter-, and communication-efficient techniques and FLOPs/MFU optimization. Instrument and analyze efficiency and energy metrics, then implement energy-aware scheduling and energy management strategies to achieve sustainability goals."
+  },
+  {
+    "task_id": 71,
+    "text": "For integrating AI with enterprise systems, what is key?",
+    "options": [
+      "Using secure connectors and APIs across CRM, ERP, and databases",
+      "Copy-pasting data manually from ERP into model prompts",
+      "Sharing admin passwords to simplify system access",
+      "Avoiding middleware to reduce network hops"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "It connects AI to enterprise platforms securely and at scale.",
+    "skillName": "Enterprise AI Integration",
+    "skillDefinition": "Designs, implements, and tests integrations that connect AI models with enterprise systems, IoT/IIoT devices, and data sources using connectors, middleware, and APIs. Delivers secure, compliant, and scalable deployments across CRM/ERP/EHR, databases, Microsoft 365, blockchain, and payment platforms."
+  },
+  {
+    "task_id": 72,
+    "text": "To validate model changes reliably, what is essential?",
+    "options": [
+      "Hypothesis-driven experiments with automated behavioral and stress tests",
+      "Deploying immediately and monitoring social media feedback",
+      "Running one-off manual tests without records",
+      "Only checking unit tests unrelated to model behavior"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "Rigorous experimentation with automated tests ensures quality control.",
+    "skillName": "Experimentation and Test Automation",
+    "skillDefinition": "Design, run, and track ML experiments with sound hypotheses, experimental design, and health checks to validate model behavior and quality. Build automated QA pipelines that generate tests and synthetic data/benchmarks; apply TDD/spec-driven practices and execute behavioral, differential, property-based, stress, and shadow testing with clear documentation."
+  },
+  {
+    "task_id": 73,
+    "text": "For regulated AI outputs, what matters most?",
+    "options": [
+      "Producing trustworthy explanations and ensuring cross-platform compatibility",
+      "Using opaque models while withholding all rationale",
+      "Optimizing only latency even if reasoning is hidden",
+      "Locking formats to a single vendor API forever"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "XAI methods and interoperability support trust and portability.",
+    "skillName": "Explainable and Interoperable AI",
+    "skillDefinition": "Ability to design, implement, and evaluate AI systems that are interpretable and transparent, produce trustworthy explanations of model reasoning, and adhere to XAI best practices. Includes documenting algorithmic transparency, applying mechanistic interpretability techniques, and ensuring model compatibility and interoperability across platforms and tools."
+  },
+  {
+    "task_id": 74,
+    "text": "When stabilizing a model, what is a core practice?",
+    "options": [
+      "Feature scaling, selection, and activation-based model steering as needed",
+      "Keeping all raw features without normalization or pruning",
+      "Using random noise features to regularize performance",
+      "Removing validation to accelerate training iterations"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "Strong feature pipelines and steering improve stability and performance.",
+    "skillName": "Feature Engineering and Model Steering",
+    "skillDefinition": "Builds and optimizes feature pipelines: extraction, selection, scaling and normalization (standard, min-max, robust, max-abs, batch/layer) with feature store integration and coreset selection. Applies activation/model steering and vector/action-space normalization to guide model behavior and improve stability."
+  },
+  {
+    "task_id": 75,
+    "text": "For believable NPCs, what should Game AI include?",
+    "options": [
+      "Planning and learning for adaptive behaviors across engines",
+      "Fixed scripted paths with no reaction to players",
+      "Random movements to simulate life-like behavior",
+      "Frame counters to decide actions without state"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "Game AI blends planning and learning to adapt behaviors.",
+    "skillName": "Game AI Engineering",
+    "skillDefinition": "Designs and builds AI agents for games and simulations, including NPC behaviors, combat, companions, and collaborative teams. Applies game theory, planning, and learning to create adaptive, believable, and performant agents across engines and platforms."
+  },
+  {
+    "task_id": 76,
+    "text": "For controlled AI media outputs, what is key?",
+    "options": [
+      "Prompt design, conditioning, parameter tuning, and quality validation",
+      "Sampling at random seeds only and shipping first results",
+      "Ignoring content policies to speed content creation",
+      "Saving frames as JPEG repeatedly to enforce style"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "It controls generation and validates quality and compliance.",
+    "skillName": "Generative Media Engineering",
+    "skillDefinition": "Produce and control AI-generated text, images, audio, video, and 3D assets using prompt design, conditioning, parameter tuning, and post-processing across creative workflows. Apply content detection and quality assurance to validate outputs, ensure originality and compliance, and integrate assets into CGI, game, and animation pipelines."
+  },
+  {
+    "task_id": 77,
+    "text": "When building with Gemini, what practice is sound?",
+    "options": [
+      "Use Gemini APIs with tools, Workspace integration, and local optimization",
+      "Rely on web scraping only and avoid official SDKs",
+      "Embed credentials in frontend code for easy access",
+      "Ignore evaluation and deploy all prompts unchanged"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "Effective integration uses official APIs, tools, and performance tuning.",
+    "skillName": "Google Gemini Ecosystem Integration",
+    "skillDefinition": "Develop and deploy GenAI solutions with Google’s Gemini and Gemma using Gemini API, SDK, CLI, Genkit, and Google AI Studio, with tools like NotebookLM and Code Assist. Integrate Google Search, Serper/SerpAPI, DuckDuckGo, Perplexity, Gmail and Workspace, and Perspective APIs, and optimize local inference via GGML and GEMM/DeepGEMM."
+  },
+  {
+    "task_id": 78,
+    "text": "To speed GPU inference, what technique is central?",
+    "options": [
+      "Profiling and fusing kernels with CUDA graphs and custom ops",
+      "Switching to Python lists for tensor math operations",
+      "Disabling streams to avoid concurrency complexity",
+      "Randomly pinning threads to CPU cores for speed"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "GPU performance relies on profiling, kernels, fusion, and graphs.",
+    "skillName": "GPU Performance Engineering",
+    "skillDefinition": "Design, develop, and optimize CUDA kernels and GPU-accelerated inference pipelines using profiling, fused/custom kernels, and CUDA graphs. Manage and debug GPU systems and clusters, including deployment, monitoring, drivers, offload, and passthrough to achieve reliable high-throughput compute."
+  },
+  {
+    "task_id": 79,
+    "text": "When stabilizing training, what is a key method?",
+    "options": [
+      "Choosing modern optimizers and clipping or scheduling gradients",
+      "Training at fixed LR 1.0 for rapid convergence always",
+      "Disabling backprop to avoid gradient explosion",
+      "Using random labels to better explore loss"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Optimizers, scheduling, and clipping help stabilize and improve training.",
+    "skillName": "Gradient Optimization Techniques",
+    "skillDefinition": "Ability to train and optimize models with automatic differentiation and modern optimizers (SGD, Adam variants, RMSProp, Shampoo, Muon), including learning-rate schedules, gradient clipping/accumulation/checkpointing, DP-SGD and noise injection. Includes applying gradient boosting (XGBoost/LightGBM) and performing gradient analysis and interpretability (saliency maps, Grad-CAM) to diagnose and improve training."
+  },
+  {
+    "task_id": 80,
+    "text": "For knowledge applications, what defines Graph AI?",
+    "options": [
+      "Building GNNs with graph DB integration and explainability tools",
+      "Flattening graphs to CSV and using bag-of-words only",
+      "Ignoring graph queries and traversals for speed",
+      "Storing nodes as images to reuse CNN models"
+    ],
+    "correctIndex": 0,
+    "likely": 0.67,
+    "explanation": "It uses GNNs, graph databases, and explainability for graph tasks.",
+    "skillName": "Graph AI Engineering",
+    "skillDefinition": "Design, implement, and optimize graph-based AI systems by building GNN models with DGL, applying dynamic graph learning and explainability with GNNExplainer, and integrating graph databases via Cypher and GraphQL. Develop DAG workflows for retrieval and analytics, and tune graph algorithms, traversal, and queries for performance and scalability."
+  },
+  {
+    "task_id": 81,
+    "text": "For citation-aware generation, what is key?",
+    "options": [
+      "Ontologies, knowledge graphs, normalization, and grounded retrieval",
+      "Only bigger prompts without any structured knowledge",
+      "Sampling more tokens with higher temperature always",
+      "Disabling citations to shorten final responses"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "Grounding requires structured knowledge integration and retrieval.",
+    "skillName": "Grounded Knowledge Engineering",
+    "skillDefinition": "Design, build, and manage ontologies, knowledge bases, and knowledge graphs, and integrate them into AI pipelines for grounded retrieval and citation-aware generation. Implement concept normalization, knowledge representation, extraction, embedding, and reasoning to ensure domain-accurate, traceable outputs."
+  },
+  {
+    "task_id": 82,
+    "text": "For long documents, what strategy improves summarization?",
+    "options": [
+      "Split into semantic chunks, summarize, and recursively aggregate outputs",
+      "Summarize only the first page and ignore the rest",
+      "Increase temperature to capture more details randomly",
+      "Use stopwords as chunk boundaries for speed"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "Hierarchical chunking structures content for accurate aggregation.",
+    "skillName": "Hierarchical Chunking and Summarization",
+    "skillDefinition": "Design and implement hierarchical chunking and summarization workflows that split long or complex content into semantic units, generate chunk-level summaries, and recursively aggregate them into coherent outputs. Optimize prompts, models, and chunking strategies via task decomposition, scaffolding, and ablation studies to deliver accurate summaries for documents, meetings, and videos."
+  },
+  {
+    "task_id": 83,
+    "text": "In building transformers, what is a core practice?",
+    "options": [
+      "Using HF tools to train, scale, and productionize architectures",
+      "Hand-coding all layers without any framework support",
+      "Serving raw PyTorch tensors via print statements",
+      "Only training short sequences to avoid memory usage"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "HF provides libraries to design, scale, and deploy transformers.",
+    "skillName": "Hugging Face Transformer Engineering",
+    "skillDefinition": "Design, train, and optimize diverse transformer architectures (decoder-only, efficient/long-context, memory-augmented, graph, conformer) using Hugging Face tools (Transformers, Accelerate, Datasets, TRL, Optimum, Diffusers, Pipelines). Scale long-sequence training with Megatron-LM and efficient variants (linear/MoT), and productionize models via the Hub, Spaces, and Inference Endpoints."
+  },
+  {
+    "task_id": 84,
+    "text": "For safe AI interfaces, what is essential?",
+    "options": [
+      "Human-in-the-loop workflows with UX testing and oversight",
+      "Auto-approve all outputs without any user control",
+      "Minimize feedback channels to reduce confusion",
+      "Use only backend logs to infer user needs"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "HCI designs oversight, feedback, and usable interfaces for AI.",
+    "skillName": "Human AI Interaction Design",
+    "skillDefinition": "Designs and implements AI interfaces and workflows that keep humans in the loop for feedback, oversight, and verification across HCI/HRI contexts. Combines design research, UI/UX and frontend development, plus GUI automation/testing and localization to deliver usable, safe, and trustworthy AI systems."
+  },
+  {
+    "task_id": 85,
+    "text": "To improve LLM reliability in math, what helps most?",
+    "options": [
+      "Combining neural models with symbolic tools and verification",
+      "Raising temperature to explore more diverse paths",
+      "Using longer prompts with unrelated examples",
+      "Disabling all intermediate steps to save tokens"
+    ],
+    "correctIndex": 0,
+    "likely": 0.69,
+    "explanation": "Hybrid methods pair neural reasoning with formal logic and checks.",
+    "skillName": "Hybrid Reasoning Engineering",
+    "skillDefinition": "Design, implement, and evaluate AI systems that perform multi-step, algorithmic reasoning by combining neural models with formal logic and symbolic tools (e.g., MRKL, neuro-symbolic methods). Build iterative reasoning workflows, hybrid scoring and verification, and domain-specific reasoning for math, code, financial, and physical tasks to improve reliability and accuracy."
+  },
+  {
+    "task_id": 86,
+    "text": "For securing AI APIs, what is a core IAM practice?",
+    "options": [
+      "OAuth/OIDC, JWTs, RBAC, and least-privilege execution roles",
+      "Sharing one admin account across all services",
+      "Embedding passwords in client applications for speed",
+      "Disabling MFA to streamline developer onboarding"
+    ],
+    "correctIndex": 0,
+    "likely": 0.82,
+    "explanation": "Modern IAM uses federated auth, tokens, roles, and MFA.",
+    "skillName": "Identity and Access Management",
+    "skillDefinition": "Design and implement secure authentication and authorization for applications, integrating identity providers (Okta, LDAP/AD) using OAuth 2.0/OpenID Connect, JWT, SSO, and MFA, including passwordless and biometric verification. Configure RBAC/ACLs and fine-grained policies, manage consent and age/identity verification, and apply execution roles across services to enforce least privilege."
+  },
+  {
+    "task_id": 87,
+    "text": "For contract AI, what pipeline is essential?",
+    "options": [
+      "OCR, layout analysis, KIE, and data quality enforcement",
+      "Saving scans as images and manual copy-paste extraction",
+      "Using regex only for all fields across documents",
+      "Ignoring page structure to speed up parsing"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "IDP extracts structured data using OCR and layout-aware models.",
+    "skillName": "Intelligent Document Processing",
+    "skillDefinition": "Ability to design and deploy end-to-end document AI pipelines that ingest, parse, and understand unstructured documents (PDFs, scans, HTML, LaTeX), extracting structured data, entities, and key fields using OCR, layout analysis, and KIE. Includes integrating document loaders and stores, enforcing data quality, and automating downstream workflows such as contract and legal document analysis."
+  },
+  {
+    "task_id": 88,
+    "text": "In K8s ML platforms, what is core?",
+    "options": [
+      "Autoscaled pipelines and serving with observability and secure tooling",
+      "Running training on a single pod without retries",
+      "Deploying models with kubectl exec and manual scripts",
+      "Ignoring cluster RBAC to simplify config"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "It uses K8s tooling for scalable, observable, secure ML workflows.",
+    "skillName": "Kubernetes MLOps Engineering",
+    "skillDefinition": "Design, deploy, and operate distributed data pipelines and ML training/inference on Kubernetes and cloud platforms. Use Spark/Beam/Flink, Airflow/Argo, Kafka/MQTT, Kubeflow/KServe, Helm/kubectl, and services like GKE and EMR to build secure, autoscaled, and observable workflows and model-serving APIs."
+  },
+  {
+    "task_id": 89,
+    "text": "For LLM apps, what practice defines LangChain engineering?",
+    "options": [
+      "Building chains, tools, and stateful workflows with tracing and evals",
+      "Using only raw HTTP calls without any orchestration",
+      "Embedding secrets in chains to reduce latency",
+      "Avoiding state management to keep code short"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "LangChain enables structured workflows with observability and tools.",
+    "skillName": "LangChain Ecosystem Engineering",
+    "skillDefinition": "Design, build, and deploy LLM applications and agents using the LangChain ecosystem across Python, JavaScript, and Java, including chains, tools, and stateful workflows with LangGraph. Implement server endpoints with LangServe, visual authoring with LangFlow, and production observability, tracing, and evaluation using LangFuse, LangSmith, and LangTrace."
+  },
+  {
+    "task_id": 90,
+    "text": "For small language models, what is essential?",
+    "options": [
+      "Selecting architectures, training reproducibly, and automated benchmarking",
+      "Only counting parameters as a proxy for quality",
+      "Skipping evaluation to speed up delivery",
+      "Ignoring domain datasets to keep training generic"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "It focuses on architecture choice, reproducibility, and systematic evals.",
+    "skillName": "Language Model Engineering",
+    "skillDefinition": "Design, pretrain, fine-tune, and evaluate small and masked language models by selecting suitable architectures (e.g., MiniLM, LayoutLM) and building reproducible training pipelines. Implement automated benchmarking with lm-eval-harness, OpenAI Evals, DeepEval, and datasets like HellaSwag, HumanEval, LiveCodeBench, and SWE-bench, integrating results into QA/search systems (e.g., Haystack) and GenAI evaluation services."
+  },
+  {
+    "task_id": 91,
+    "text": "When deploying Llama models, what is a sound approach?",
+    "options": [
+      "Use Ollama or llama.cpp with quantization and safe RAG integration",
+      "Ship full-precision weights to all phones for fidelity",
+      "Disable guardrails to reduce token usage",
+      "Store chat history in plaintext logs with secrets"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Llama stack involves optimized runtimes, quantization, and safety tools.",
+    "skillName": "Llama Stack Engineering",
+    "skillDefinition": "Deploy, optimize, and operate Llama-family and compatible LLMs on CPU/GPU using Ollama, llama.cpp, ExLlama/EXL2, and ipex-llm, with quantization, memory tuning, and scalable serving. Build safe, production apps by integrating via OpenRouter or Llama API, implementing RAG with LlamaIndex/LlamaCloud (Parse/Extract), wiring chat UIs (Open WebUI, LibreChat, LM Studio, Oobabooga), and applying Llama Guard, Model Armor, and OWASP practices."
+  },
+  {
+    "task_id": 92,
+    "text": "For reliable LLM apps, what is key?",
+    "options": [
+      "Define architecture, integrate tools, benchmark, and tune cost and latency",
+      "Select the largest model and ignore performance metrics",
+      "Rely on prompt magic without any tooling or evals",
+      "Ship prototypes directly to production users unmonitored"
+    ],
+    "correctIndex": 0,
+    "likely": 0.81,
+    "explanation": "It combines design, integration, benchmarking, and optimization.",
+    "skillName": "LLM Application Engineering",
+    "skillDefinition": "Design, build, and deploy LLM-powered applications and agents by defining architectures, integrating APIs, and implementing toolchains for code and multimodal use cases. Select and customize models via fine-tuning or efficient training, benchmark and align them, and optimize cost, latency, and throughput for reliable production operation."
+  },
+  {
+    "task_id": 93,
+    "text": "To keep responses accurate under limits, what helps most?",
+    "options": [
+      "Context compression, caching, pruning, and dynamic retrieval",
+      "Always sending full history regardless of token costs",
+      "Raising temperature to explore more context paths",
+      "Removing system prompts to fit more user text"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Context engineering manages memory and retrieval for relevance and cost.",
+    "skillName": "LLM Context Engineering",
+    "skillDefinition": "Design and implement context window strategies for LLMs, including compression, caching, pruning, isolation, extension, offloading, and dynamic retrieval, to keep relevant information within limits and improve accuracy, latency, and cost. Build context-aware workflows that enable reliable in-context learning and contextual reasoning in agentic systems."
+  },
+  {
+    "task_id": 94,
+    "text": "For integrating GPT and open models, what is best practice?",
+    "options": [
+      "API orchestration, format conversion, quantization, and Go-based services",
+      "Calling models only from spreadsheets via macros",
+      "Embedding raw weights in browser code for speed",
+      "Ignoring rate limits to increase throughput"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "Integration spans orchestration, conversion, optimization, and robust services.",
+    "skillName": "LLM Integration and Deployment",
+    "skillDefinition": "Design, build, and maintain applications that integrate GPT-family and open-source LLMs via OpenAI/Azure APIs, including ChatGPT Enterprise, custom GPTs, and agent frameworks like AutoGen/AutoGPT. Deliver end-to-end deployment: API orchestration, Go-based services, model selection, quantization and format conversion (GGUF, GPTQ), and optimization on platforms such as oneAPI."
+  },
+  {
+    "task_id": 95,
+    "text": "For agents that call external APIs, what is vital?",
+    "options": [
+      "Define tools, schemas, auth, and reliable error handling and chaining",
+      "Let the model guess endpoints and payloads freely",
+      "Expose admin APIs without authentication to speed testing",
+      "Disable tool use for simpler prompts only"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "Tool integration requires schema, auth, chaining, and robust handling.",
+    "skillName": "LLM Tool Integration",
+    "skillDefinition": "Design and implement function calling and tool use for LLM-based agents by integrating external APIs, services, and data sources. Select, define, and orchestrate tools (including dynamic discovery and chaining), manage schemas, authentication, and error handling to ensure reliable model-tool interaction."
+  },
+  {
+    "task_id": 96,
+    "text": "For efficient fine-tuning, what defines LoRA practice?",
+    "options": [
+      "Inject low-rank adapters and scale with efficient distributed communication",
+      "Retrain all weights at FP64 precision regardless of cost",
+      "Quantize everything to 1-bit without calibration always",
+      "Freeze all layers and avoid adapters entirely"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "LoRA adds low-rank adapters and scales with efficient comms.",
+    "skillName": "Low Rank Adaptation Engineering",
+    "skillDefinition": "Implement and optimize low-rank adapters for large models (LoRA, DoRA, LoRMA, Mixture-of-LORAs) using matrix factorization and dimensionality reduction (PCA, UMAP). Scale fine-tuning with efficient distributed communication (allreduce, alltoall) and support quantized and text-to-LoRA workflows."
+  },
+  {
+    "task_id": 97,
+    "text": "For rapid AI delivery, what is a core approach?",
+    "options": [
+      "Use low-code tools to integrate models, data, and workflows",
+      "Write custom kernels for every small business app",
+      "Avoid existing connectors to keep code pure",
+      "Deploy only CLI tools with no UI or automation"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Low-code enables fast integration of models and data to production.",
+    "skillName": "Low-code No-code AI Development",
+    "skillDefinition": "Build and deploy AI/ML applications and automations using no-code and low-code platforms, including translating UI designs to working components, configuring data flows, and integrating prebuilt models and APIs. Select appropriate tools, orchestrate workflows, and ship production-ready solutions without extensive programming."
+  },
+  {
+    "task_id": 98,
+    "text": "For repeatable ML delivery, what is essential?",
+    "options": [
+      "Automated pipelines for data, training, evaluation, and deployment",
+      "Manual execution of notebooks for each experiment",
+      "Skipping versioning to avoid tooling overhead",
+      "Pushing models without any testing or tracking"
+    ],
+    "correctIndex": 0,
+    "likely": 0.82,
+    "explanation": "Pipelines operationalize ML with automation, tracking, and governance.",
+    "skillName": "Machine Learning Pipeline Engineering",
+    "skillDefinition": "Design, build, and operate end-to-end machine learning pipelines for data ingestion, training, evaluation, deployment, and inference using MLOps, DevOps, and DataOps practices. Automate experimentation, tracking, and governance with ML frameworks and AutoML to deliver reliable, reproducible, and compliant production models."
+  },
+  {
+    "task_id": 99,
+    "text": "For robust probabilistic AI, what is central?",
+    "options": [
+      "Bayesian modeling, inference, testing, and uncertainty quantification",
+      "Assuming all data is deterministic and noiseless",
+      "Using sample means only for every decision",
+      "Ignoring risks like membership inference attacks"
+    ],
+    "correctIndex": 0,
+    "likely": 0.68,
+    "explanation": "Mathematical modeling applies probability, inference, and risk analysis.",
+    "skillName": "Mathematical Modeling for AI",
+    "skillDefinition": "Formulate, implement, and validate probabilistic AI models using applied mathematics, probability, and statistics, including Bayesian modeling, statistical inference and testing, and stochastic modeling with uncertainty quantification. Optimize models and objectives (e.g., Bayesian optimization), assess risks such as membership inference, and leverage foundational knowledge of quantum and post-quantum methods when applicable."
+  },
+  {
+    "task_id": 100,
+    "text": "For tool-using models, what is MCP development about?",
+    "options": [
+      "Building MCP servers and agents with secure tool and resource schemas",
+      "Embedding tool credentials in model weights directly",
+      "Letting agents call any OS command without limits",
+      "Sending binary blobs as tools without definitions"
+    ],
+    "correctIndex": 0,
+    "likely": 0.62,
+    "explanation": "MCP exposes tools via structured schemas with secure interaction.",
+    "skillName": "MCP Server and Agent Development",
+    "skillDefinition": "Build and integrate MCP servers and agents that expose tools, data, and capabilities to AI models via the Model Context Protocol. Configure and use mcptools and mcp-forge, define resources and tool schemas, and ensure secure, reliable model interaction and control."
+  },
+  {
+    "task_id": 101,
+    "text": "To scale sparse models, what is essential?",
+    "options": [
+      "Dynamic routing, expert parallelism, and efficient MoE kernels",
+      "Activating all experts for every token to improve recall",
+      "Routing by random selection to balance loads",
+      "Using a single expert to simplify shard placement"
+    ],
+    "correctIndex": 0,
+    "likely": 0.67,
+    "explanation": "MoE relies on routing quality, parallelism, and optimized kernels.",
+    "skillName": "Mixture of Experts Engineering",
+    "skillDefinition": "Design, implement, and optimize sparse Mixture of Experts architectures with dynamic token and task routing, expert parallelism, and efficient MoE kernels for scalable training and inference. Balance expert loads, monitor routing quality, and integrate these models into production systems to deliver high throughput and low latency."
+  },
+  {
+    "task_id": 102,
+    "text": "For reliable AI delivery, what should automation include?",
+    "options": [
+      "Containerized CI/CD with IaC, tracking, and secure builds",
+      "Manual deployments from laptops via SSH each Friday",
+      "Disabling vulnerability scans to speed up builds",
+      "Skipping artifact versioning to reduce clutter"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "Automated CI/CD with IaC and tracking ensures reproducible delivery.",
+    "skillName": "MLOps Pipeline Automation",
+    "skillDefinition": "Design, containerize, and automate AI/ML workflows with CI/CD pipelines and CLI tooling, using Docker/Compose, Conda, dependency and configuration management, and bring your own container practices. Integrate experiment tracking with Comet, apply Infrastructure as Code, and enforce container security to reliably build, test, deploy, and monitor models while ensuring reproducibility and reducing technical debt."
+  },
+  {
+    "task_id": 103,
+    "text": "To improve robustness, what is a valid approach?",
+    "options": [
+      "Stacking and fusion with rigorous validation to avoid collapse",
+      "Averaging logits from unrelated tasks indiscriminately",
+      "Selecting the worst model to promote diversity",
+      "Ensembling without any separate validation set"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "Well-designed ensembles improve accuracy and robustness when validated.",
+    "skillName": "Model Ensembling and Fusion",
+    "skillDefinition": "Design, implement, and evaluate ensemble and data fusion strategies (early/late/multi-view/sensor fusion; model chaining/cascading) to boost accuracy, robustness, and efficiency across tasks and modalities. Select and tune methods and tools (stacking, energy-based scoring, operator fusion, Mergekit), prevent model collapse, and validate gains with rigorous experiments."
+  },
+  {
+    "task_id": 104,
+    "text": "To reduce VRAM while keeping quality, what helps?",
+    "options": [
+      "Using calibrated quantization and FP16/BF16/FP8 mixed precision",
+      "Switching to FP64 for more accurate inference outputs",
+      "Quantizing randomly without evaluating degradations",
+      "Dequantizing every layer to FP32 at runtime always"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "Quantization and mixed precision cut memory and latency when validated.",
+    "skillName": "Model Quantization and Mixed Precision",
+    "skillDefinition": "Ability to design, implement, and optimize low-precision inference and training using quantization (1-8-bit, AWQ/AQT/AutoAWQ, dynamic/block-wise) and mixed precision (FP16/BF16/FP8) to cut memory use and latency while preserving accuracy. Includes selecting formats per model and hardware, configuring toolchains like bitsandbytes, calibrating activations and weights, handling dequantization, and validating performance against quality targets."
+  },
+  {
+    "task_id": 105,
+    "text": "For multilingual AI, what is core?",
+    "options": [
+      "Fine-tuning and deploying models across languages with OCR and ASR integration",
+      "Translating all inputs to English manually before inference",
+      "Dropping low-resource languages to simplify datasets",
+      "Ignoring domain adaptation for biomedical terminology"
+    ],
+    "correctIndex": 0,
+    "likely": 0.73,
+    "explanation": "It builds multilingual models and integrates text and speech tools.",
+    "skillName": "Multilingual NLP Engineering",
+    "skillDefinition": "Design, fine-tune, and deploy multilingual NLP models for machine translation, cross-lingual understanding, and domain-specific applications (biomedical, legal, financial), including low-resource settings. Build natural language interfaces and instruction-following workflows, integrating OCR and speech recognition with frameworks like KerasNLP and NLTK."
+  },
+  {
+    "task_id": 106,
+    "text": "For AI across text and images, what is essential?",
+    "options": [
+      "Aligning modalities with tokenization, pretraining, tuning, and evaluation",
+      "Training separate models without any fusion layer",
+      "Converting images to text hashes only for speed",
+      "Ignoring moderation since images are safe by default"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "Multimodal systems require fusion, alignment, data pipelines, and safety.",
+    "skillName": "Multimodal AI Engineering",
+    "skillDefinition": "Design, train, and deploy multimodal models and agents that integrate and align text, image, audio, and video for cross-modal fusion, reasoning, retrieval, and generation. Implement data pipelines, multimodal tokenization and embedding, pretraining and fine-tuning, interface integration, evaluation, and safety and moderation to deliver robust multimodal applications."
+  },
+  {
+    "task_id": 107,
+    "text": "For robust identification, what is key?",
+    "options": [
+      "Entity linking, OCR, biometrics, and gesture analysis across modalities",
+      "Use only text classification for all perception tasks",
+      "Rely solely on audio cues for face recognition",
+      "Ignore calibration and confidence estimation fully"
+    ],
+    "correctIndex": 0,
+    "likely": 0.68,
+    "explanation": "It spans recognition tasks across text, image, video, and sensors.",
+    "skillName": "Multimodal Pattern Recognition",
+    "skillDefinition": "Design, implement, and evaluate AI systems that perform entity linking and resolution, OCR, object and biometric recognition, emotion and intent detection, and activity/gesture analysis across text, image, video, and infrared modalities. Execute dataset curation, model selection, training, calibration, and deployment to achieve reliable identification, verification, and classification in real-world applications."
+  },
+  {
+    "task_id": 108,
+    "text": "To lower cost in multimodal inference, what helps?",
+    "options": [
+      "Token-aware packing, compression, and efficient text and image tokenization",
+      "Always increasing token vocabulary until latency drops",
+      "Converting audio to random tokens for diversity",
+      "Disabling batching to simplify stream processing"
+    ],
+    "correctIndex": 0,
+    "likely": 0.69,
+    "explanation": "Efficient tokenization and packing reduce latency and cost.",
+    "skillName": "Multimodal Tokenization and Optimization",
+    "skillDefinition": "Design, implement, and evaluate tokenization pipelines for text, speech, and images using byte-level, subword, phoneme, and multilingual techniques, selecting and tuning tools like SentencePiece and assessing tokenization-free alternatives. Optimize token efficiency through token-aware packing, compression, batch and streaming processing, and usage monitoring to lower cost and latency while preserving accuracy in generation and classification."
+  },
+  {
+    "task_id": 109,
+    "text": "When targeting mobile inference, what is a key practice?",
+    "options": [
+      "Selecting efficient architectures with proper activations and conditioning",
+      "Using only very deep RNNs with no skip connections",
+      "Maximizing parameter count for accuracy always",
+      "Removing pooling to increase spatial redundancy"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "Architecture choices must balance accuracy, latency, and memory.",
+    "skillName": "Neural Architecture Engineering",
+    "skillDefinition": "Design, implement, and optimize modern neural network architectures (CNNs, UNets, MLPs, RNNs/GRUs/LSTMs, message-passing networks) with appropriate activations, pooling, skip connections, and conditioning mechanisms. Select and train architectures (e.g., EfficientNet, ConvNeXt, MobileNet, Inception, ControlNet) using backpropagation, activation analysis, and recomputation to meet accuracy, latency, and memory targets."
+  },
+  {
+    "task_id": 110,
+    "text": "To compress NLP models, what is central?",
+    "options": [
+      "Knowledge distillation and curated corpora with deduplication and pruning",
+      "Appending random web text to increase dataset size",
+      "Ignoring BLEU and BEIR when evaluating retrievers",
+      "Distilling only tokenizer vocab without model training"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "Distillation plus curated data reduces size while preserving quality.",
+    "skillName": "NLP Distillation and Data Curation",
+    "skillDefinition": "Designs and runs knowledge/self/token-level distillation to compress transformer-based NLP models (BERT, RoBERTa, SBERT, DistilBERT) and applies data/dataset distillation to shrink training sets. Curates and evaluates text corpora and retrieval pipelines via semantic/text/entity deduplication, pruning/packing, balancing, imputation, shuffling/splitting, and benchmarks with bag-of-words/BM25/ColBERT using BLEU, BERTScore, and BEIR."
+  },
+  {
+    "task_id": 111,
+    "text": "For H100 clusters, what is a core focus?",
+    "options": [
+      "NCCL, NVLink/InfiniBand, and memory throughput tuning for scaling",
+      "Routing all traffic over public internet VPNs",
+      "Disabling tensor cores to avoid precision issues",
+      "Using CPU-only training for reliability at scale"
+    ],
+    "correctIndex": 0,
+    "likely": 0.71,
+    "explanation": "It optimizes interconnects, memory, and communication for scale.",
+    "skillName": "NVIDIA AI Supercomputing",
+    "skillDefinition": "Design, deploy, and optimize large-scale AI training and inference on NVIDIA H100/A100 GPU clusters using CUDA, NCCL, NVLink/InfiniBand, and high-bandwidth memory. Implement multi-GPU scaling, high-performance networking, and high availability while tuning communication patterns, memory throughput, and NeMo/NIM workloads for maximum performance."
+  },
+  {
+    "task_id": 112,
+    "text": "For mobile inference privacy, what is key?",
+    "options": [
+      "Compress and quantize models with hardware acceleration on device",
+      "Stream raw mic data to the cloud for all processing",
+      "Disable NPU to simplify the application code paths",
+      "Use full-precision models regardless of battery limits"
+    ],
+    "correctIndex": 0,
+    "likely": 0.8,
+    "explanation": "On-device AI uses compression and accelerators for low latency and privacy.",
+    "skillName": "On-Device AI Deployment",
+    "skillDefinition": "Design, optimize, and deploy ML models to run locally on edge devices, embedded systems, mobile apps, and browsers for low-latency, privacy-preserving inference. Includes selecting toolchains and runtimes, applying model compression and quantization, leveraging hardware acceleration, and integrating on-device inference into production applications."
+  },
+  {
+    "task_id": 113,
+    "text": "For OSS model releases, what is essential?",
+    "options": [
+      "Version weights, track experiments, and enforce licensing and updates",
+      "Upload weights without any license or documentation",
+      "Share training data without provenance or consent",
+      "Disable release notes to avoid maintenance tasks"
+    ],
+    "correctIndex": 0,
+    "likely": 0.73,
+    "explanation": "Model management requires versioning, tracking, and license compliance.",
+    "skillName": "Open-Source Model Management",
+    "skillDefinition": "Build, version, and release open-source AI models and their weights, including open-weight management, weight merging/sharing, and open-data sourcing. Use MLOps practices and tools such as Weights & Biases to track experiments, enforce licensing and compliance, and deliver secure over-the-air model updates"
+  },
+  {
+    "task_id": 114,
+    "text": "For reliable LLM behavior, what is a core practice?",
+    "options": [
+      "Few-shot prompting, chaining, caching, and adversarial prompt hardening",
+      "Using random instructions to increase creativity always",
+      "Hiding system prompts to reduce token counts only",
+      "Avoiding evaluations to prevent overfitting to tests"
+    ],
+    "correctIndex": 0,
+    "likely": 0.81,
+    "explanation": "Prompt engineering tunes instruction patterns, workflows, and safety.",
+    "skillName": "Prompt Engineering",
+    "skillDefinition": "Design, optimize, and orchestrate prompts across text and image modalities using techniques like few-shot/one-shot, meta- and modular prompting, chaining, augmentation, and automated optimization. Evaluate adherence and performance, manage prompt workflows (routing, batching, caching, prefilling), and implement strong prompt security via sanitization plus adversarial and injection detection, testing, and mitigation."
+  },
+  {
+    "task_id": 115,
+    "text": "For Python AI workflows, what is essential?",
+    "options": [
+      "Data prep, model training, visualization, and packaging with validation",
+      "Writing only scripts without environments or dependencies",
+      "Copying notebook cells into production servers",
+      "Ignoring typing and schema checks for speed"
+    ],
+    "correctIndex": 0,
+    "likely": 0.82,
+    "explanation": "Modern Python AI uses robust libraries, packaging, and validation.",
+    "skillName": "Python AI Development",
+    "skillDefinition": "Ability to design, code, and automate AI workflows in Python: data preprocessing (NumPy, pandas), model training and evaluation (scikit-learn, spaCy, Mediapipe, MindSpore, PaddlePaddle), visualization (matplotlib, seaborn), and packaging/validation (pydantic, PyPI). Competent with Bash scripting and tooling for dataset management and benchmarking (FiftyOne, LPIPS, PDQ) and working with media/document libraries (Pillow, PyPDF)."
+  },
+  {
+    "task_id": 116,
+    "text": "To optimize PyTorch models, what is key?",
+    "options": [
+      "Use torch.compile, custom ops, and serve with TorchServe as needed",
+      "Always disable autograd for faster backpropagation",
+      "Switch to lists and loops for tensor operations",
+      "Avoid Lightning or Torchtune to keep code minimal"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "PyTorch optimization uses compiler paths, kernels, and serving tools.",
+    "skillName": "PyTorch Model Engineering",
+    "skillDefinition": "Develop, fine-tune, optimize, and deploy vision, language, and multimodal models in the PyTorch ecosystem using Lightning and Torchtune. Integrate TorchVision, TIMM, Detectron2, YOLO, DETR, DINO, DONUT, and LLMs such as FLAN-T5, Falcon, and Phi-3; accelerate with torch.compile, AOTInductor, JIT, and custom ops, and serve with TorchServe."
+  },
+  {
+    "task_id": 117,
+    "text": "For multi-hop QA, what design helps most?",
+    "options": [
+      "Pipeline for query decomposition, retrieval, and augmentation for truthfulness",
+      "Single-pass generation without any retrieval or reforms",
+      "Using higher temperature to discover longer chains",
+      "Ignoring SQL generation for structured sources"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "Multi-hop QA benefits from decomposition, retrieval, and augmentation.",
+    "skillName": "Question Answering Engineering",
+    "skillDefinition": "Design and optimize end-to-end question answering systems across text, images, and video, including open-domain and multi-hop tasks. Build query pipelines for generation, decomposition, reformulation, and expansion, integrate retrieval and SQL generation, and apply paraphrase augmentation to improve accuracy and truthfulness."
+  },
+  {
+    "task_id": 118,
+    "text": "For low-latency decisions, what architecture helps?",
+    "options": [
+      "Event-driven streaming with backpressure and monitoring",
+      "Polling every minute to fetch batches of events",
+      "Writing logs to disk and processing monthly",
+      "Blocking all producers to prevent queue growth"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Event-driven designs support timely inference and control.",
+    "skillName": "Real-Time Event-Driven AI",
+    "skillDefinition": "Design, build, and operate event-driven architectures and streaming data pipelines that enable low-latency AI inference, decisioning, and control. Implement real-time processing, monitoring, and integration across sensors, services, and conversational agents using streaming APIs, message queues, and backpressure to ensure reliability at scale."
+  },
+  {
+    "task_id": 119,
+    "text": "For live AI apps, what is essential?",
+    "options": [
+      "HTTP APIs with WebSocket/SSE and secure, performant frontends",
+      "Static HTML pages with daily manual refreshes",
+      "Sending model responses via email to clients",
+      "Disabling TLS to speed up initial handshakes"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "Real-time web uses streaming connections with secure, optimized UI.",
+    "skillName": "Realtime Web Development",
+    "skillDefinition": "Ability to design, build, and secure real-time web applications: implement HTTP servers and APIs (Node.js/Express/Next, PHP), webhooks, and bidirectional streaming via WebSocket, SSE, and WebRTC; deliver responsive UIs with JavaScript/TypeScript, React, and HTML/CSS/Tailwind. Optimize performance and graphics using WebAssembly and GPU/graphics stacks (WebGL/WebGPU/Three.js), and enforce reliability and security with WAFs and robust HTTP client/server tooling."
+  },
+  {
+    "task_id": 120,
+    "text": "To improve step-by-step reasoning, what helps?",
+    "options": [
+      "Chain/tree-of-thought with self-consistency and tool verification",
+      "Only increasing context size without structure",
+      "Sampling once with zero temperature always",
+      "Forbidding intermediate steps to save tokens"
+    ],
+    "correctIndex": 0,
+    "likely": 0.73,
+    "explanation": "Structured reasoning prompts plus verification improve reliability.",
+    "skillName": "Reasoning Prompt Engineering",
+    "skillDefinition": "Designs, implements, and evaluates structured reasoning workflows for language models—chain, tree, and graph of thought—using auto-CoT, Buffer of Thoughts, self-consistency, thought anchors, and related prompts to improve reliability. Integrates proof assistants and solvers (Lean, SMT, tableau/strands) to verify intermediate steps, automate theorem proving, monitor and visualize thought traces, and optimize training and prompting."
+  },
+  {
+    "task_id": 121,
+    "text": "For robust CLIP-style training, what is essential?",
+    "options": [
+      "InfoNCE with regularization, dropout, and careful checkpointing",
+      "Training on random pairs without labels or losses",
+      "Eliminating early stopping to maximize epochs",
+      "Saving no checkpoints to simplify storage"
+    ],
+    "correctIndex": 0,
+    "likely": 0.69,
+    "explanation": "Contrastive learning needs proper losses, regularization, and ops.",
+    "skillName": "Regularized Contrastive Training",
+    "skillDefinition": "Build and train CLIP/OpenCLIP/BLIP/SimCLR contrastive models with InfoNCE loss, tuning lambda and using dropout, early stopping, and L1/KL regularization to prevent overfitting, underfitting, and catastrophic forgetting. Implement robust training operations including activation/distributed checkpointing, model checkpoint management and conversion, and automatic rollback to ensure reliable, reproducible runs."
+  },
+  {
+    "task_id": 122,
+    "text": "For scalable RL, what is a core practice?",
+    "options": [
+      "Apply advantage estimation, off-policy eval, and curriculum or self-play",
+      "Train with random rewards to encourage exploration",
+      "Disable replay buffers to simplify code",
+      "Ignore preference-based optimization for language tasks"
+    ],
+    "correctIndex": 0,
+    "likely": 0.68,
+    "explanation": "Modern RL leverages estimators, OPE, and training curricula.",
+    "skillName": "Reinforcement Learning Engineering",
+    "skillDefinition": "Design, train, and evaluate reinforcement learning agents across on-policy, off-policy, offline, model-based, and deep RL settings. Apply advantage estimation and Bellman/dynamic programming, imitation and inverse learning, and preference-based policy optimization (e.g., DPO, GRPO, KTO), and scale to multi-agent, long-horizon, and natural-language tasks using curriculum, self-play, and off-policy evaluation."
+  },
+  {
+    "task_id": 123,
+    "text": "For production retrieval, what is central?",
+    "options": [
+      "Design dense, sparse, and hybrid retrievers with tuned strategies",
+      "Use only keyword queries against raw text blobs",
+      "Avoid negative sampling to simplify training",
+      "Ignore latency and recall to ship faster"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "It builds tuned retrieval pipelines to meet relevance and scale.",
+    "skillName": "Retrieval Systems Engineering",
+    "skillDefinition": "Design, build, and optimize information retrieval pipelines (dense, sparse, hybrid) for text and multimodal data using dual-encoder, late-interaction, multivector, and cross-modal techniques. Train, tune, and evaluate retrievers (e.g., HyDE, self-querying, multi-hop, just-in-time, dynamic) and deploy them to meet relevance, recall, latency, and scalability goals in production."
+  },
+  {
+    "task_id": 124,
+    "text": "For entity matching, what approach is effective?",
+    "options": [
+      "Combine full-text, facets, fuzzy, and vector similarity with APIs",
+      "Match only on exact string equality for speed",
+      "Use random hashing to pair entities blindly",
+      "Return first N results without ranking signals"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Robust matching blends lexical and vector methods with metrics.",
+    "skillName": "Search and Matching Systems",
+    "skillDefinition": "Builds, evaluates, and deploys search and matching pipelines that combine full-text, faceted, fuzzy, and vector similarity (FAISS) techniques with keyword/pattern/feature matching and slot filling to link relevant entities. Implements robust dataflows and APIs (e.g., FastAPI) and uses metrics and fuzz testing to optimize accuracy, latency, and reliability in production."
+  },
+  {
+    "task_id": 125,
+    "text": "To raise search quality, what is key?",
+    "options": [
+      "Learning-to-rank with multilingual embeddings and rerankers using NDCG",
+      "Sorting by document ID to stabilize results",
+      "Ignoring clicks to avoid feedback bias",
+      "Using random order to encourage exploration"
+    ],
+    "correctIndex": 0,
+    "likely": 0.76,
+    "explanation": "Relevance uses LTR, embeddings, reranking, and relevance metrics.",
+    "skillName": "Search Relevance Engineering",
+    "skillDefinition": "Build and optimize ranking and reranking pipelines for search and document retrieval using Cohere APIs, multilingual embeddings, and cross-encoder rerankers. Apply learning-to-rank and pairwise preference models, tune relevance with metrics like NDCG, and deploy production-grade rankers."
+  },
+  {
+    "task_id": 126,
+    "text": "For safe model serving, what is essential?",
+    "options": [
+      "TLS, TEEs, sandboxing, and jailbreak detection with validation",
+      "Running as root to reduce permission errors",
+      "Embedding secrets in containers for convenience",
+      "Disabling output validation to cut latency"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "Hardening uses encryption, isolation, and exploit mitigations.",
+    "skillName": "Secure AI Runtime Hardening",
+    "skillDefinition": "Deploy and harden AI training and inference environments using end-to-end encryption (TLS, homomorphic encryption), trusted execution environments and secure sandboxing tools. Implement session isolation and jailbreak detection/mitigation to prevent session hijacking and XSS, validating controls in regulatory sandboxes."
+  },
+  {
+    "task_id": 127,
+    "text": "To reduce agent errors, what method works?",
+    "options": [
+      "ReAct loops with reflection and iterative refinement under constraints",
+      "One-shot generation with no review or feedback",
+      "Higher temperature to explore more mistakes quickly",
+      "Disabling tool calls to simplify chains"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "Self-correction uses reasoning plus reflection to fix outputs.",
+    "skillName": "Self-Correcting AI Agents",
+    "skillDefinition": "Design and implement AI agents that use ReAct reasoning-and-acting loops with reflection and iterative refinement to detect, explain, and correct errors in outputs, plans, and code (including grammar correction). Apply reflection tuning and refactoring to build corrigible, self-healing agents that can recursively improve under defined safety and performance constraints."
+  },
+  {
+    "task_id": 128,
+    "text": "For serverless AI workloads, what matters?",
+    "options": [
+      "Autoscaling, cold-start mitigation, observability, and CI/CD for stateless services",
+      "Sticky sessions with local disk-only stateful serving",
+      "Always keeping functions hot by infinite loops",
+      "Skipping metrics to reduce function duration"
+    ],
+    "correctIndex": 0,
+    "likely": 0.74,
+    "explanation": "Serverless AI balances scaling, latency, and reliability controls.",
+    "skillName": "Serverless AI Engineering",
+    "skillDefinition": "Design, deploy, and optimize ML and RL workloads on serverless architectures, including GPU-enabled inference, with autoscaling, event-driven pipelines, and cost-aware resource management. Implement stateless services, cold-start mitigation, observability, and CI/CD to reliably operate serverless AI in production."
+  },
+  {
+    "task_id": 129,
+    "text": "To improve interpretability and efficiency, what helps?",
+    "options": [
+      "Sparse autoencoders, VAEs, pruning, and dictionary learning",
+      "Dense layers only with maximal parameter counts",
+      "Randomly zeroing weights without analysis",
+      "Using PCA alone for all latent modeling"
+    ],
+    "correctIndex": 0,
+    "likely": 0.64,
+    "explanation": "Sparse latent methods target interpretability and efficiency gains.",
+    "skillName": "Sparse Latent Representation Engineering",
+    "skillDefinition": "Ability to design, train, and evaluate models that learn and leverage sparse latent representations for efficiency, interpretability, and reasoning, including latent space analysis/manipulation and representation alignment. Applies techniques such as VAEs/VQ-VAEs, sparse autoencoders, dictionary learning, pruning and sparsification, spectral methods, and JEPA/LCM-style predictive objectives."
+  },
+  {
+    "task_id": 130,
+    "text": "For meeting assistants, what pipeline is key?",
+    "options": [
+      "ASR, TTS, enhancement, and image-text alignment for captions",
+      "Manual transcription and reading aloud by staff",
+      "Only image OCR without any speech modeling",
+      "Storing audio as images to reuse CV models"
+    ],
+    "correctIndex": 0,
+    "likely": 0.75,
+    "explanation": "Speech and vision models provide real-time transcription and captions.",
+    "skillName": "Speech and Vision AI",
+    "skillDefinition": "Design, train, and deploy ASR, TTS, and multimodal captioning systems that convert audio and images to text and generate natural speech. Includes ITN, prosody and multi-speaker/multilingual modeling, speech enhancement and editing, image-text alignment, and API integration for real-time transcription, note-taking, analytics, and interfaces."
+  },
+  {
+    "task_id": 131,
+    "text": "For tracking hidden states, what approach is key?",
+    "options": [
+      "FSMs and state-space models like Kalman filters and deep SSMs",
+      "Treating sequences as unordered sets for simplicity",
+      "Randomly initializing state every timestep always",
+      "Using only static regressions for dynamic systems"
+    ],
+    "correctIndex": 0,
+    "likely": 0.7,
+    "explanation": "Stateful models estimate and predict latent states over time.",
+    "skillName": "Stateful Systems Modeling",
+    "skillDefinition": "Designs, implements, and deploys state-based models and agents—from finite state machines to state-space models (Kalman filters, deep SSMs like Mamba)—for next-state prediction, estimation, tracking, and control. Builds robust state representations, manages state persistence, and uses libraries such as Statsmodels and deep learning frameworks to train, evaluate, and integrate these systems into production."
+  },
+  {
+    "task_id": 132,
+    "text": "For JSON outputs from LLMs, what is essential?",
+    "options": [
+      "Schema design, guided generation, and validation and parsing pipelines",
+      "Free-form text with manual copy-paste into forms",
+      "Embedding JSON in images to avoid parsing errors",
+      "Ignoring schema evolution to keep code simple"
+    ],
+    "correctIndex": 0,
+    "likely": 0.81,
+    "explanation": "Structured output requires schemas, guidance, and robust validation.",
+    "skillName": "Structured Output Engineering",
+    "skillDefinition": "Design JSON/XML schemas and taxonomies, configure LLMs for style-controlled, schema-guided generation, and build validation, parsing, and formatting pipelines, including schema inference and evolution, to reliably produce and process structured data and reports."
+  },
+  {
+    "task_id": 133,
+    "text": "For demand forecasts, what is a core task?",
+    "options": [
+      "Train temporal models and convert forecasts into operational actions",
+      "Treat timestamps as unordered IDs to simplify models",
+      "Use static averages for all future periods",
+      "Ignore uncertainty when planning inventory"
+    ],
+    "correctIndex": 0,
+    "likely": 0.77,
+    "explanation": "Time series modeling forecasts and drives actions with uncertainty.",
+    "skillName": "Time Series Predictive Modeling",
+    "skillDefinition": "Designs, trains, and deploys time series and spatiotemporal models (e.g., ARIMA, probabilistic methods, deep and foundation models) to forecast demand, churn, and operational metrics using lag features, temporal alignment, and sequence analysis. Converts forecasts into actions for inventory optimization, predictive maintenance, supply chain planning, fleet routing, and nowcasting with quantified uncertainty."
+  },
+  {
+    "task_id": 134,
+    "text": "To speed attention on long sequences, what helps?",
+    "options": [
+      "FlashAttention, efficient masking, and kernel profiling and tuning",
+      "Disabling attention caches to avoid memory fragmentation",
+      "Always using full quadratic attention regardless of length",
+      "Converting tokens to images to speed kernels"
+    ],
+    "correctIndex": 0,
+    "likely": 0.72,
+    "explanation": "Efficient mechanisms and tuned kernels improve throughput and memory.",
+    "skillName": "Transformer Attention Optimization",
+    "skillDefinition": "Ability to design, implement, and optimize transformer attention mechanisms and kernels (e.g., causal/self/cross, masking, GQA, linear attention, FlashAttention) to improve throughput, latency, and memory efficiency on modern GPUs. Includes profiling and tuning attention kernels, applying efficient masking, mitigating attention sinks, selecting mechanisms by task and sequence length, and using attention visualization to diagnose behavior."
+  },
+  {
+    "task_id": 135,
+    "text": "For scalable ANN search, what is essential?",
+    "options": [
+      "HNSW or IVF indexes with filters and low-latency deployments",
+      "Linear scans over raw vectors for all queries",
+      "Indexing only metadata without vector fields",
+      "Using KNN on CPU with no batching or shards"
+    ],
+    "correctIndex": 0,
+    "likely": 0.79,
+    "explanation": "ANN indexes and tuned deployments deliver relevant, fast search.",
+    "skillName": "Vector Search Engineering",
+    "skillDefinition": "Design, implement, and tune approximate nearest neighbor indexing and retrieval (HNSW, IVF, KNN) on vector databases like Milvus, Pinecone, Qdrant, pgvector, and Elasticsearch. Configure schemas, metadata filters, hybrid and incremental indexing, and deploy scalable, low-latency vector search services including on-device retrieval."
+  },
+  {
+    "task_id": 136,
+    "text": "For document understanding with images and text, what is key?",
+    "options": [
+      "Fine-tune VLMs and optimize inference for interactive applications",
+      "Use only text models and ignore images entirely",
+      "Attach captions post-hoc without model alignment",
+      "Resize images to thumbnails for all tasks"
+    ],
+    "correctIndex": 0,
+    "likely": 0.73,
+    "explanation": "VLM engineering aligns visual and language inputs for tasks.",
+    "skillName": "Vision-Language Model Engineering",
+    "skillDefinition": "Design, fine-tune, and deploy vision- and video-language models for visual intelligence tasks, including object detection, document understanding, scene reasoning, and action planning, using tools like Qwen-VL, Flamingo, OWL-ViT, Pix2Struct, and vision APIs. Build interactive applications that leverage VLMs/LVLMs, optimize inference, and automate vision-to-code workflows."
+  },
+  {
+    "task_id": 137,
+    "text": "For a voice assistant, what is the core build?",
+    "options": [
+      "ASR, TTS, voice biometrics, and robust voice UX with integrations",
+      "Simple DTMF menus with no speech features at all",
+      "Playing pre-recorded clips as every response",
+      "Ignoring latency while streaming responses slowly"
+    ],
+    "correctIndex": 0,
+    "likely": 0.78,
+    "explanation": "Voice AI integrates recognition, synthesis, biometrics, and UX.",
+    "skillName": "Voice AI Engineering",
+    "skillDefinition": "Design, build, and integrate voice-driven AI assistants by combining speech recognition, voice synthesis/vocoders, cloning/conversion, and biometrics to enable natural command, search, and interaction. Implement robust voice UI/UX, select and fine-tune voice models, and perform platform integrations to deploy secure, high-quality voice agents."
+  }
+]

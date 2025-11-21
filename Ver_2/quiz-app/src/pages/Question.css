@@ -1,0 +1,90 @@
+.question-page {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.question-content {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question-header h2 {
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.skill-name {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+.options-container {
+  margin-bottom: 2rem;
+}
+
+.option-label {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: white;
+}
+
+.option-label:hover {
+  border-color: var(--primary-blue);
+  background: var(--bg-hover);
+}
+
+.option-label.selected {
+  border-color: var(--primary-blue);
+  background: var(--bg-selected);
+}
+
+.option-radio {
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+.option-text {
+  flex: 1;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+.question-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .question-content {
+    padding: 1.5rem;
+  }
+  
+  .question-text {
+    font-size: 1.1rem;
+  }
+  
+  .option-label {
+    padding: 0.75rem;
+  }
+}

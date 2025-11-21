@@ -1,0 +1,72 @@
+.app-header {
+  background: var(--primary-blue);
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+}
+
+.progress-container {
+  flex: 1;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.progress-text {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #28a745;
+  transition: width 0.3s ease;
+}
+
+.btn-finish {
+  background: white;
+  color: var(--primary-blue);
+  border: 2px solid white;
+}
+
+.btn-finish:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .app-title {
+    text-align: center;
+  }
+  
+  .progress-container {
+    max-width: none;
+  }
+}
